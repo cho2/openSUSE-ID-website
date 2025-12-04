@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import TentangOpenSUSE from './pages/TentangOpenSUSE';
 import TentangKami from './pages/TentangKami';
+import KodeEtik from './pages/KodeEtik';
 import BlogPage from './pages/BlogPage';
 import BlogPost from './pages/BlogPost';
 import Repositori from './pages/Repositori';
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/tentang-opensuse" element={<TentangOpenSUSE />} />
             <Route path="/tentang-kami" element={<TentangKami />} />
+            <Route path="/kode-etik" element={<KodeEtik />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/repositori" element={<Repositori />} />
