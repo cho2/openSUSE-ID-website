@@ -68,6 +68,16 @@ const Layout = ({ children }) => {
               >
                 Tentang Kami
               </Link>
+              <Link 
+                to="/kode-etik" 
+                className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                  isActive('/kode-etik') 
+                    ? 'bg-[#73ba25] text-white' 
+                    : 'text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                Kode Etik
+              </Link>
               <div className="relative group">
                 <button className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:bg-gray-100 transition-all flex items-center">
                   Blog <ChevronDown className="ml-1 h-4 w-4" />
