@@ -1,88 +1,199 @@
 import React from 'react';
-import { Calendar, MapPin, Users, Award, ExternalLink } from 'lucide-react';
+import { Calendar, MapPin, Users, Award, ExternalLink, Sparkles, Globe2 } from 'lucide-react';
 
 const AsiaSummit2026 = () => {
+  const quickFacts = [
+    { label: 'Status', value: 'Sudah diumumkan', icon: Sparkles },
+    { label: 'Acara', value: 'openSUSE.Asia Summit 2026', icon: Globe2 },
+    { label: 'Tanggal', value: '3-4 Oktober 2026', icon: Calendar },
+    { label: 'Lokasi', value: 'Universitas Gadjah Mada, Yogyakarta', icon: MapPin },
+  ];
+
+  const highlights = [
+    {
+      title: 'Sesi presentasi dan keynote',
+      description:
+        'Ruang untuk berbagi pengalaman, studi kasus, dan pembaruan dari komunitas open source di Asia.',
+    },
+    {
+      title: 'Workshop dan demo teknis',
+      description:
+        'Format hands-on untuk belajar langsung tentang tools, alur kerja, dan praktik terbaik openSUSE.',
+    },
+    {
+      title: 'Networking komunitas',
+      description:
+        'Kesempatan bertemu kontributor, pengguna, dan relawan dari berbagai negara di kawasan Asia.',
+    },
+    {
+      title: 'Kolaborasi lintas komunitas',
+      description:
+        'Tempat bertukar ide untuk proyek, dokumentasi, penerjemahan, dan aktivitas komunitas berikutnya.',
+    },
+  ];
+
+  const topics = [
+    'Distribusi dan rilis openSUSE',
+    'Administrasi sistem dan otomasi',
+    'Desktop, developer workflow, dan produktivitas',
+    'Cloud, container, dan infrastruktur terbuka',
+    'Kontribusi komunitas, dokumentasi, dan lokalisasi',
+  ];
+
   return (
-    <div>
+    <div className="bg-white text-gray-900">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#73ba25] via-[#5ea01d] to-[#4a8b16] text-white py-20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#73ba25] via-[#5ea01d] to-[#4a8b16] text-white py-20">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(255,255,255,0.18),transparent_30%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_85%_10%,rgba(28,157,217,0.16),transparent_28%)]" />
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-4">
-              Coming Soon
+          <div className="relative z-10 max-w-4xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-5">
+              <Sparkles className="h-4 w-4" />
+              Akan diadakan
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               openSUSE.Asia Summit 2026
             </h1>
-            <p className="text-xl opacity-95 mb-8">
-              Informasi akan segera diumumkan
+            <p className="text-xl md:text-2xl opacity-95 mb-8 max-w-3xl mx-auto leading-relaxed">
+              Konferensi komunitas openSUSE untuk kawasan Asia akan diadakan pada 3-4 Oktober 2026 di Universitas Gadjah Mada, Yogyakarta.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://events.opensuse.org/conferences/oSAS26"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#73ba25] hover:text-[#5ea01d] font-semibold rounded-xl transition-all transform hover:scale-105"
+              >
+                Lihat laman resmi
+                <ExternalLink className="ml-2 h-4 w-4" />
+              </a>
+              <a
+                href="https://t.me/openSUSE_ID"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white/10 border border-white/30 hover:bg-white/15 font-semibold rounded-xl transition-all"
+              >
+                Ikuti komunitas
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Info */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            {quickFacts.map(({ label, value, icon: Icon }) => (
+              <div key={label} className="rounded-2xl border border-gray-100 bg-gray-50 p-6 shadow-sm">
+                <div className="flex items-start gap-4">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[#73ba25]/10 text-[#73ba25]">
+                    <Icon className="h-6 w-6" />
+                  </span>
+                  <div>
+                    <p className="text-sm text-gray-500 mb-1">{label}</p>
+                    <p className="text-lg font-semibold text-gray-900 leading-snug">{value}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50 border-t border-gray-100">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Tentang openSUSE.Asia Summit 2026</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                openSUSE.Asia Summit adalah konferensi tahunan yang mempertemukan komunitas openSUSE dan open source di kawasan Asia. Konferensi ini menjadi platform untuk berbagi pengetahuan, pengalaman, dan membangun kolaborasi antar komunitas.
+                openSUSE.Asia Summit adalah konferensi tahunan yang mempertemukan komunitas openSUSE dan open source di kawasan Asia.
+                Acara ini menjadi ruang untuk berbagi pengetahuan, pengalaman, dan membangun kolaborasi antar komunitas.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Informasi lengkap mengenai openSUSE.Asia Summit 2026 termasuk tanggal, lokasi, tema, dan pendaftaran akan segera diumumkan. Pantau terus website dan media sosial kami untuk update terbaru.
+                Untuk edisi 2026, konferensi akan berlangsung pada 3-4 Oktober 2026 di Universitas Gadjah Mada, Yogyakarta.
+                Halaman ini menjadi pengantar awal untuk informasi agenda, pembicara, dan aktivitas komunitas.
               </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Jika Anda ingin mengikuti pembaruan lebih awal, pantau situs resmi openSUSE dan kanal komunitas openSUSE Indonesia.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Call for Papers</h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Call for Papers dibuka 1 Mei sampai 1 Juli 2026 untuk Workshop, Long Talk, dan Short Talk.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                Topik mencakup openSUSE, desktop, cloud, container, keamanan, embedded, IoT, dan topik non-teknis.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="https://events.opensuse.org/conferences/oSAS26"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-[#73ba25] text-white font-semibold rounded-xl transition-all hover:bg-[#5ea01d]"
+                >
+                  Buka halaman CFP resmi
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+                <div className="rounded-2xl border border-gray-100 bg-gray-50 px-6 py-4 text-gray-700 flex items-center">
+                  1 Mei - 1 Juli 2026
+                </div>
+              </div>
             </div>
 
             {/* What to Expect */}
             <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Yang Dapat Anda Harapkan</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[#73ba25] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <Users className="h-6 w-6 text-white" />
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Apa yang Akan Kamu dapatkan?</h2>
+              <div className="grid gap-6 md:grid-cols-2">
+                {highlights.map((item) => (
+                  <div key={item.title} className="rounded-2xl border border-gray-100 bg-gray-50 p-6">
+                    <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="text-gray-600 leading-relaxed">{item.description}</p>
                   </div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-2">Networking</h3>
-                    <p className="text-gray-600 text-sm">Bertemu dengan kontributor dan pengguna openSUSE dari berbagai negara</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[#1c9dd9] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <Award className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-2">Keynote & Talks</h3>
-                    <p className="text-gray-600 text-sm">Presentasi dari expert dan pembicara internasional</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[#73ba25] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-2">Workshop</h3>
-                    <p className="text-gray-600 text-sm">Sesi hands-on dan tutorial praktis</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[#1c9dd9] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <Calendar className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-2">Community</h3>
-                    <p className="text-gray-600 text-sm">Diskusi dan kolaborasi dengan komunitas open source</p>
-                  </div>
-                </div>
+                ))}
               </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Topik yang Relevan</h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Fokus acara biasanya mencakup pembaruan distribusi, praktik administrasi sistem, dan pengalaman komunitas yang bisa dibagikan lintas negara.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {topics.map((topic) => (
+                  <div key={topic} className="flex items-start gap-3 rounded-xl border border-gray-100 bg-gray-50 px-4 py-3">
+                    <span className="mt-1 h-2.5 w-2.5 rounded-full bg-[#73ba25]" />
+                    <span className="text-gray-700">{topic}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Sponsor</h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Detail sponsor untuk openSUSE.Asia Summit 2026 dapat dilihat melalui halaman khusus sponsor.
+              </p>
+              <a
+                href="https://s.id/oSAS26-sponsor"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#1c9dd9] text-white font-semibold rounded-xl transition-all hover:bg-[#1889c0]"
+              >
+                Lihat detail sponsor
+                <ExternalLink className="ml-2 h-4 w-4" />
+              </a>
             </div>
 
             {/* Stay Updated */}
             <div className="bg-gradient-to-br from-[#73ba25] to-[#5ea01d] text-white rounded-2xl p-8 md:p-12 text-center">
               <h2 className="text-3xl font-bold mb-6">Tetap Terhubung</h2>
               <p className="text-lg opacity-95 mb-8">
-                Ikuti media sosial kami untuk mendapatkan update terbaru tentang openSUSE.Asia Summit 2026
+                Ikuti media sosial kami untuk mendapatkan pembaruan terbaru tentang openSUSE.Asia Summit 2026
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
