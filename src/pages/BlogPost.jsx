@@ -100,7 +100,7 @@ const BlogPost = () => {
           <ul>
               <li><strong>Batas akhir pengiriman proposal:</strong> 1 Juli 2026</li>
               <li><strong>Pengumuman untuk pembicara:</strong> 21 Juli 2026</li>
-              <li><strong>Tenggat pengajuan TSP pemateri:</strong> 21 Juli 2026</li>
+              <li><strong>Tenggat pengajuan TSP pemateri:</strong> 31 Juli 2026</li>
           </ul>
       </section>
 
