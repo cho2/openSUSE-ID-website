@@ -1,6 +1,15 @@
 // All blog posts data from opensuse.id
 export const allBlogPosts = [
   {
+    id: 187,
+    title: 'CFP openSUSE.Asia Summit 2026 Dibuka',
+    excerpt: 'Kami dengan gembira mengumumkan bahwa Pendaftaran Proposal untuk openSUSE.Asia Summit 2026 kini telah dibuka!',
+    image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/CFP/cfp-ID.png',
+    category: 'kegiatan',
+    date: '4 Juni 2026',
+    slug: 'cfp-opensuse-asia-summit-2026-dibuka'
+  },
+  {
     id: 1,
     title: 'Repositori Baru download.opensuse.id',
     excerpt: 'Salam, Komunitas openSUSE Indonesia memiliki 2 repositori lokal yg dikelola mandiri. repo.opensuse.id dan twrepo.opensuse.id. VM repo oi merupakan donasi dari sebuah perusahaan IT di Jakarta telah beroperasi sejak 2018 melayani pengguna openSUSE di Indonesia dan Asia Tenggara. VM twrepo oi adalah...',
