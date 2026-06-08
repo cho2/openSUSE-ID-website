@@ -16,6 +16,7 @@ Website resmi komunitas openSUSE Indonesia - Mempromosikan penggunaan Linux dan 
 - [Fitur](#fitur)
 - [Troubleshooting](#troubleshooting)
 - [Kontribusi](#kontribusi)
+- [Menambahkan blog post baru](blog-post.md)
 - [Lisensi](#lisensi)
 
 ## 🎯 Tentang Project
