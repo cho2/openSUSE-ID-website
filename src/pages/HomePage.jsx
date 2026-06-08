@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Download, Globe2, Shield, Sparkles, Users } from 'lucide-react';
 import ImageWithFallback from '../components/ImageWithFallback';
+import { allBlogPosts } from '../data/blogPosts';
 
 const HomePage = () => {
   const stats = [
@@ -11,36 +12,7 @@ const HomePage = () => {
     { label: 'Sejak', value: '2007', icon: Shield },
   ];
 
-  const blogPosts = [
-    {
-      id: 1,
-      title: 'Repositori Baru download.opensuse.id',
-      excerpt:
-        'Repositori komunitas yang lebih cepat, disokong CloudKilat dan siap melayani Leap, Slowroll, dan Tumbleweed.',
-      image: 'https://opensuse.id/wp-content/uploads/2025/10/openSUSE-iDxCloudKilat-d.o.i-IG.png',
-      category: 'Komunitas',
-      date: '18 Oktober 2025',
-      slug: 'repositori-baru-download-opensuse-id',
-    },
-    {
-      id: 2,
-      title: 'openSUSE-ID Meet Up Desember 2022',
-      excerpt: 'Meetup penutup tahun dengan sesi santai soal Leap, Tumbleweed, dan rencana komunitas 2023.',
-      image: 'https://opensuse.id/wp-content/uploads/2022/12/openSUSEDesember.png',
-      category: 'Kegiatan',
-      date: '12 Desember 2022',
-      slug: 'opensuse-id-meet-up-desember-2022',
-    },
-    {
-      id: 3,
-      title: 'openSUSE-ID di Indonesia Linux Conference 2022',
-      excerpt: 'Ringkasan partisipasi openSUSE-ID di ILC 2022 dengan demo YaST dan sesi berbagi komunitas.',
-      image: 'https://opensuse.id/wp-content/uploads/2022/11/Group-1-1232x567.png',
-      category: 'Kegiatan',
-      date: '12 November 2022',
-      slug: 'opensuse-id-di-indonesia-linux-conference-2022',
-    },
-  ];
+  const blogPosts = allBlogPosts.slice(0, 3);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
