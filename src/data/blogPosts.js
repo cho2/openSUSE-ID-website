@@ -1,6 +1,15 @@
 // All blog posts data from opensuse.id
 export const allBlogPosts = [
   {
+    id: 188,
+    title: 'Kompetisi Logo openSUSE.Asia Summit 2026 Dibuka',
+    excerpt: 'Kami dengan gembira mengumumkan peluncuran Kompetisi Logo openSUSE.Asia Summit 2026!',
+    image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/logo-contest/logo-contest-ID.png',
+    category: 'kegiatan',
+    date: '8 Juni 2026',
+    slug: 'kompetisi-logo-opensuse-asia-summit-2026-dibuka'
+  },
+  {
     id: 187,
     title: 'CFP openSUSE.Asia Summit 2026 Dibuka',
     excerpt: 'Kami dengan gembira mengumumkan bahwa Pendaftaran Proposal untuk openSUSE.Asia Summit 2026 kini telah dibuka!',
