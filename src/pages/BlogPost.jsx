@@ -106,7 +106,7 @@ const BlogPost = () => {
       </section>            
 
       `,
-      image: '',
+      image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/logo-contest/logo-contest-ID.png',
       category: 'Kegiatan',
       date: '8 Juni 2026',
       author: 'Tim openSUSE Indonesia'
