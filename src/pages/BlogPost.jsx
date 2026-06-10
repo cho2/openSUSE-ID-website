@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Calendar, Tag, ArrowLeft, Share2, Check } from 'lucide-react';
+import { allBlogPosts } from '../data/blogPosts';
+import { getCategoryLabel } from '../lib/categoryUtils';
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -42,9 +44,9 @@ const BlogPost = () => {
     });
   };
 
-  const blogPosts = {
+  const blogContents = {
     'kompetisi-logo-opensuse-asia-summit-2026-dibuka': {
-      title: 'Kompetisi Logo openSUSE.Asia Summit 2026 Dibuka',
+      author: 'Tim openSUSE Indonesia',
       content: `
       <div style="text-align: center; margin-bottom: 20px;">
           <img src="https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/logo-contest/logo-contest-ID.png" alt="Poster Logo Competition openSUSE.Asia Summit 2026" style="max-width: 100%; height: auto;">
@@ -106,13 +108,9 @@ const BlogPost = () => {
       </section>            
 
       `,
-      image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/logo-contest/logo-contest-ID.png',
-      category: 'Kegiatan',
-      date: '8 Juni 2026',
-      author: 'Tim openSUSE Indonesia'
     },
     'cfp-opensuse-asia-summit-2026-dibuka': {
-      title: 'CFP openSUSE.Asia Summit 2026 Dibuka',
+      author: 'Tim openSUSE Indonesia',
       content: `
       <div style="text-align: center; margin-bottom: 20px;">
           <img src="https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/CFP/cfp-ID.png" alt="Poster Call for Speakers openSUSE.Asia Summit 2026" style="max-width: 100%; height: auto;">
@@ -205,14 +203,14 @@ const BlogPost = () => {
           <p>🦎</p>
       </section>      
       `,
-      image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/CFP/cfp-ID.png',
-      category: 'Kegiatan',
-      date: '4 Juni 2026',
-      author: 'Tim openSUSE Indonesia'
     },
     'repositori-baru-download-opensuse-id': {
-      title: 'Repositori Baru download.opensuse.id',
+      author: 'Tim openSUSE Indonesia',
       content: `
+        <div style="text-align: center; margin-bottom: 20px;">
+          <img src="https://www.instagram.com/p/DP8SupYDrSF/media/?size=l" alt="download.opensuse.id" style="max-width: 100%; height: auto;">
+        </div>
+
         <p>Salam,</p>
         
         <p>Komunitas openSUSE Indonesia memiliki 2 repositori lokal yg dikelola mandiri. <strong>repo.opensuse.id</strong> dan <strong>twrepo.opensuse.id</strong>. VM repo oi merupakan donasi dari sebuah perusahaan IT di Jakarta telah beroperasi sejak 2018 melayani pengguna openSUSE di Indonesia dan Asia Tenggara. VM twrepo oi adalah donasi dari sebuah provider video-on-demand di Jakarta sejak 2019.</p>
@@ -227,13 +225,9 @@ const BlogPost = () => {
         
         <p><strong>Have fun!</strong></p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2025/10/openSUSE-iDxCloudKilat-d.o.i-IG.png',
-      category: 'Komunitas',
-      date: '18 Oktober 2025',
-      author: 'Tim openSUSE Indonesia'
     },
     'opensuse-id-meet-up-desember-2022': {
-      title: 'openSUSE-ID Meet Up Desember 2022',
+      author: 'Tim openSUSE Indonesia',
       content: `
         <p>Halo teman-teman!</p>
         <p>Untuk menutup tahun ini openSUSE Indonesia ingin mengadakan meetup terakhir tahun 2022. Skuy hadir dan mari kita berbincang tentang perkembangan openSUSE dan komunitas kita.</p>
@@ -257,13 +251,9 @@ const BlogPost = () => {
 
         <p>Acara ini terbuka untuk semua orang, baik yang sudah menggunakan openSUSE maupun yang tertarik untuk mencoba. Mari kita tutup tahun ini dengan penuh semangat!</p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2022/12/openSUSEDesember.png',
-      category: 'Kegiatan',
-      date: '12 Desember 2022',
-      author: 'Tim openSUSE Indonesia'
     },
     'opensuse-id-di-indonesia-linux-conference-2022': {
-      title: 'openSUSE-ID di Indonesia Linux Conference 2022',
+      author: 'Tim openSUSE Indonesia',
       content: `
         <p>Apa itu ILC? Yang jelas bukan Indonesia Lawyers Club.</p>
         <p>ILC adalah Indonesia Linux Conference yang merupakan konferensi tahunan komunitas Linux Indonesia. Tahun ini, komunitas openSUSE Indonesia turut berpartisipasi dalam acara ini dengan berbagai aktivitas menarik.</p>
@@ -289,13 +279,9 @@ const BlogPost = () => {
 
         <p>Terima kasih kepada semua yang telah hadir dan mendukung kegiatan kami di ILC 2022. Sampai jumpa di acara berikutnya!</p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2022/11/Group-1-1232x567.png',
-      category: 'Kegiatan',
-      date: '12 November 2022',
-      author: 'Tim openSUSE Indonesia'
     },
     'opensuse-asia-summit-2019-bali': {
-      title: 'openSUSE.Asia Summit 2019',
+      author: 'Tim openSUSE Indonesia',
       content: `
         <p>Komunitas openSUSE Indonesia dengan bangga mengumumkan bahwa kami telah berhasil menyelenggarakan openSUSE.Asia Summit 2019 di Bali, Indonesia.</p>
         
@@ -330,10 +316,6 @@ const BlogPost = () => {
 
         <p>Terima kasih kepada semua sponsor, volunteer, dan peserta yang telah membuat acara ini sukses besar!</p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2018/12/cropped-oSAS2018-1.jpg',
-      category: 'Kegiatan',
-      date: '6 Oktober 2019',
-      author: 'Tim openSUSE Indonesia'
     },
     'wajah-opensuse-id-mohammad-edwin-zakaria': {
       title: 'Wajah openSUSE-id: Mohammad Edwin Zakaria',
@@ -356,13 +338,9 @@ const BlogPost = () => {
         <h3>Kontribusi Anda di komunitas openSUSE Indonesia</h3>
         <p>Saya aktif di grup Facebook dan Telegram openSUSE Indonesia, sering membantu menjawab pertanyaan dari pengguna baru. Sesekali juga ikut dalam meetup komunitas.</p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2018/03/oS-AS2015-small-Edwin-Zakaria-250x250.jpg',
-      category: 'Wajah openSUSE.ID',
-      date: '13 Maret 2018',
-      author: 'Tim openSUSE Indonesia'
     },
     'wajah-opensuse-id-adnan-adhy-kurniawan': {
-      title: 'Wajah openSUSE-id: Adnan Adhy Kurniawan',
+      author: 'Tim openSUSE Indonesia',
       content: `
         <p><strong>Nickname:</strong> adnan<br/>
         <strong>Pekerjaan:</strong> PNS di Kementerian Hukum dan HAM RI<br/>
@@ -385,14 +363,17 @@ const BlogPost = () => {
         <h3>Pesan untuk calon pengguna openSUSE</h3>
         <p>Jangan ragu untuk mencoba openSUSE. Ini adalah distribusi Linux yang sangat baik untuk pemula maupun advanced user. Dan jangan lupa bergabung dengan komunitas openSUSE Indonesia!</p>
       `,
-      image: 'https://opensuse.id/wp-content/uploads/2016/03/Adnan-AK-250x250.jpg',
-      category: 'Wajah openSUSE.ID',
-      date: '22 Maret 2016',
-      author: 'Tim openSUSE Indonesia'
     }
   };
 
-  const post = blogPosts[slug] || blogPosts['repositori-baru-download-opensuse-id'];
+  const metadata = allBlogPosts.find((p) => p.slug === slug) || allBlogPosts[0];
+  const contentData = blogContents[metadata.slug] || blogContents[allBlogPosts[0].slug];
+ 
+  const post = {
+    ...metadata,
+    ...contentData,
+    category: getCategoryLabel(metadata.category),
+  };
 
   return (
     <div>

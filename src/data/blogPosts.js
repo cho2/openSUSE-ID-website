@@ -1,7 +1,7 @@
 // All blog posts data from opensuse.id
 export const allBlogPosts = [
   {
-    id: 188,
+    id: 189,
     title: 'Kompetisi Logo openSUSE.Asia Summit 2026 Dibuka',
     excerpt: 'Kami dengan gembira mengumumkan peluncuran Kompetisi Logo openSUSE.Asia Summit 2026!',
     image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/logo-contest/logo-contest-ID.png',
@@ -10,7 +10,7 @@ export const allBlogPosts = [
     slug: 'kompetisi-logo-opensuse-asia-summit-2026-dibuka'
   },
   {
-    id: 187,
+    id: 188,
     title: 'CFP openSUSE.Asia Summit 2026 Dibuka',
     excerpt: 'Kami dengan gembira mengumumkan bahwa Pendaftaran Proposal untuk openSUSE.Asia Summit 2026 kini telah dibuka!',
     image: 'https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/CFP/cfp-ID.png',
@@ -22,7 +22,7 @@ export const allBlogPosts = [
     id: 1,
     title: 'Repositori Baru download.opensuse.id',
     excerpt: 'Salam, Komunitas openSUSE Indonesia memiliki 2 repositori lokal yg dikelola mandiri. repo.opensuse.id dan twrepo.opensuse.id. VM repo oi merupakan donasi dari sebuah perusahaan IT di Jakarta telah beroperasi sejak 2018 melayani pengguna openSUSE di Indonesia dan Asia Tenggara. VM twrepo oi adalah...',
-    image: 'https://opensuse.id/wp-content/uploads/2025/10/openSUSE-iDxCloudKilat-d.o.i-IG.png',
+    image: 'https://www.instagram.com/p/DP8SupYDrSF/media/?size=l',
     category: 'komunitas',
     date: '18 Oktober 2025',
     slug: 'repositori-baru-download-opensuse-id'
@@ -585,8 +585,17 @@ export const allBlogPosts = [
     date: '28 Oktober 2019',
     slug: 'cara-memasang-driver-nvidia-pada-opensuse-tumbleweed'
   },
-  {
+    {
     id: 64,
+    title: 'openSUSE.Asia Summit 2019',
+    excerpt: 'Komunitas openSUSE Indonesia dengan bangga mengumumkan bahwa kami telah berhasil menyelenggarakan openSUSE.Asia Summit 2019 di Bali. Acara dihadiri 200+ peserta dan 30+ pembicara internasional dari berbagai negara Asia.',
+    image: 'https://opensuse.id/wp-content/uploads/2018/12/cropped-oSAS2018-1.jpg',
+    category: 'kegiatan',
+    date: '6 Oktober 2019',
+    slug: 'opensuse-asia-summit-2019-bali'
+  },  
+  {
+    id: 65,
     title: 'Memindahkan /tmp ke tmpfs',
     excerpt: 'Secara baku, direktori /tmp di openSUSE berada dalam sebuah subvolume. Karena secara baku, filesystem yang digunakan oleh openSUSE adalah BtrFS. Keuntungan dari lokasi /tmp berada di sebuah subvolume adalah kita tidak akan kehabisan ruang ketika kita bekerja dengan aplikasi pembuat berkas ISO sep...',
     image: 'https://opensuse.id/wp-content/uploads/2019/09/folder-temp.png',
@@ -595,7 +604,7 @@ export const allBlogPosts = [
     slug: 'memindahkan-tmp-ke-tmpfs'
   },
   {
-    id: 65,
+    id: 66,
     title: 'Jadwal Pembicara openSUSE.Asia Summit 2019 Telah Terbit',
     excerpt: 'Pembicara dari Australia, Cina, India, Jepang, Jerman, Mauritius, Prancis, Republik Ceko, Spanyol, dan Taiwan, bersama 30 pembicara dari Indonesia akan berbagi pengetahuan dan pengalamannya dalam openSUSE.Asia Summit 2019, 5-6 Oktober 2019 di Universitas Udayana, Bali. Mereka akan tampil dalam 47...',
     image: 'https://opensuse.id/wp-content/uploads/2019/09/Facebook_ads-1232x645.png',
@@ -604,7 +613,7 @@ export const allBlogPosts = [
     slug: 'jadwal-pembicara-opensuse-asia-summit-2019-telah-terbit'
   },
   {
-    id: 66,
+    id: 67,
     title: 'Pendaftaran Peserta openSUSE.Asia Summit 2019 Dibuka',
     excerpt: 'Pendaftaran peserta openSUSE.Asia Summit 2019 dibuka! Daftar segera di https://daftar-osas.opensuse.id/ Harga Tiket: – Pelajar/Mahasiswa IDR 50K – Umum IDR 100K Tidak ada tiket on the spot Dapatkan cashback 100% untuk tiket pelajar/mahasiswa dan cashback 50% untuk tiket umum. Tempat terbatas! Lih...',
     image: 'https://opensuse.id/wp-content/uploads/2019/09/poster-pendaftaran-v2-1232x1742.png',
@@ -613,7 +622,7 @@ export const allBlogPosts = [
     slug: 'pendaftaran-peserta-opensuse-asia-summit-2019-dibuka'
   },
   {
-    id: 67,
+    id: 68,
     title: 'Call for Lightning Talk – openSUSE.Asia Summit 2019',
     excerpt: 'openSUSE.Asia Summit 2019 will invite lightning talk relevant to openSUSE and other topics like Cloud, Virtualization, Container, Container Orchestration, Linux desktop environments and applications since openSUSE is a collection of various FLOSS products. The examples of the topics (not limited ...',
     image: 'https://opensuse.id/wp-content/uploads/2019/07/call-for-lightning-talk-1232x1232.png',
@@ -622,7 +631,7 @@ export const allBlogPosts = [
     slug: 'call-for-lightning-talk-opensuse-asia-summit-2019'
   },
   {
-    id: 68,
+    id: 69,
     title: '12 tahun openSUSE-ID',
     excerpt: '12 tahun openSUSE-ID (2007-2019) Di tahun 2019 ini, kami akan mempersembahkan openSUSE.Asia Summit ke-6 untuk Anda. Sampai jumpa di Bali!',
     image: 'https://opensuse.id/wp-content/uploads/2019/07/Mascot_Birthday.png',
@@ -631,7 +640,7 @@ export const allBlogPosts = [
     slug: '12-tahun-opensuse-id'
   },
   {
-    id: 69,
+    id: 70,
     title: 'Call for Volunteer openSUSE.Asia Summit 2019 Dibuka',
     excerpt: 'Apakah Anda siap menerima tantangan dari kami? Daftar sekarang juga di https://s.id/oSAS19-CfV',
     image: 'https://opensuse.id/wp-content/uploads/2019/07/call-for-volunteer.png',
@@ -640,7 +649,7 @@ export const allBlogPosts = [
     slug: 'call-for-volunteer-opensuse-asia-summit-2019-dibuka'
   },
   {
-    id: 70,
+    id: 71,
     title: 'openSUSE.Asia Summit 2019 Logo Competition – The Submissions',
     excerpt: 'The openSUSE.Asia Summit 2019 Logo Competition has ended on June 15, 2019, and we have 18 submissions. The winner announcement will be published on June 25, 2019, after review and voted by openSUSE.Asia Committee. Here are all the submissions. Name Design (right click and open image in new tab fo...',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/logo-contest-ID-rev-1232x1232.png',
@@ -649,7 +658,7 @@ export const allBlogPosts = [
     slug: 'opensuse-asia-summit-2019-logo-competition-the-submissions'
   },
   {
-    id: 71,
+    id: 72,
     title: 'Pesta Rilis openSUSE Leap 15.1 – Bogor',
     excerpt: 'Gak terasa ya udah di penghujung Ramadhan aja, saatnya perbanyak lagi berbagi kebaikan nih sebelum hari raya tiba dengan hal-hal yg berguna. Nah salah satunya sambil menunggu bedug adzan magrib tiba, GLiB dengan program GLiBuburit mau ngajak kalian belajar bareng mengenai Fluentd, yaitu log shipp...',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/photo_2019-05-28_10-20-49.jpg',
@@ -658,7 +667,7 @@ export const allBlogPosts = [
     slug: 'pesta-rilis-opensuse-leap-15-1-bogor'
   },
   {
-    id: 72,
+    id: 73,
     title: 'Pesta Rilis openSUSE Leap 15.1 – Malang',
     excerpt: 'Hai hai, Apakabar sobat Linux Malang? Gimana puasanya ? Sudah lama ya kita ga kopdar? 😊 kali ini KLiM bekerja sama dengan UKM CLAN486 akan mengadakan acara, yaitu Pesta Rilis openSUSE Leap 15.1 Road to OSAS 2019, Acara ini diadakan pada : Hari/Tanggal : Minggu, 26 Mei 2019 Waktu : Pkl. 15.00 Loka...',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/photo_2019-05-21_10-43-38-1232x1232.jpg',
@@ -667,7 +676,7 @@ export const allBlogPosts = [
     slug: 'pesta-rilis-opensuse-leap-15-1-malang'
   },
   {
-    id: 73,
+    id: 74,
     title: 'Pesta Rilis openSUSE Leap 15.1 – Surabaya',
     excerpt: 'Hai hai, Gimana puasanya ? Masih semangatkan ? Yuk selagi menunggu buka, kita ngabuburit bareng di acara keren yang diadakan KLAS, pesta rilis openSUSE Leap 15.1& Lokakarya Django Fundamental ! Acara ini diadakan pada : Hari/Tanggal : Minggu, 26 Mei 2019 Waktu : Pkl. 15.00 Lokasi : Ruang Training...',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/photo_2019-05-20_15-59-54-1232x1232.jpg',
@@ -676,7 +685,7 @@ export const allBlogPosts = [
     slug: 'pesta-rilis-opensuse-leap-15-1-surabaya'
   },
   {
-    id: 74,
+    id: 75,
     title: 'Kontes Logo openSUSE.Asia Summit 2019 Dibuka',
     excerpt: 'openSUSE.Asia Summit 2019 Logo Competition',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/logo-contest-ID-rev-1232x1232.png',
@@ -685,7 +694,7 @@ export const allBlogPosts = [
     slug: 'kontes-logo-opensuse-asia-summit-2019-dibuka'
   },
   {
-    id: 75,
+    id: 76,
     title: 'CFP openSUSE.Asia Summit 2019 Dibuka',
     excerpt: 'openSUSE.Asia Summit 2019 Bali: Call for proposals is Open',
     image: 'https://opensuse.id/wp-content/uploads/2019/05/cfp-ID-1232x1232.png',
@@ -694,7 +703,7 @@ export const allBlogPosts = [
     slug: 'call-for-paper-opensuse-asia-summit-2019-dibuka'
   },
   {
-    id: 76,
+    id: 77,
     title: 'Memasang Snap Pada openSUSE Leap 15.0',
     excerpt: 'Mari kita coba memasang snap pada openSUSE Leap. Berikut langkahnya. Tambahkan repo snap sudo zypper addrepo –refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.0 snappy Impor gpg secara otomatis sudo zypper –gpg-auto-import-keys refresh Pasang snap sudo zypper ins...',
     image: 'https://opensuse.id/wp-content/uploads/2019/04/snapcraft_green-red_hex-1232x880.png',
@@ -703,7 +712,7 @@ export const allBlogPosts = [
     slug: 'memasang-snap-pada-opensuse-leap-15-0'
   },
   {
-    id: 77,
+    id: 78,
     title: 'openSUSE + GNOME + Transactional Updates = Have Fun',
     excerpt: 'Apa itu transactional updates? A “transactional update” is a kind of update that: is atomic – the update does not influence your running system can be rolled back – if the upgrade fails or if the newer software version is not compatible with your infrastructure, you can quickly restore the situat...',
     image: 'https://opensuse.id/wp-content/uploads/2019/04/1.png',
@@ -712,7 +721,7 @@ export const allBlogPosts = [
     slug: 'opensuse-gnome-transactional-updates-have-fun'
   },
   {
-    id: 78,
+    id: 79,
     title: 'Menyimpan berkas .rpm hasil instalasi',
     excerpt: 'Secara baku, ketika kita memasang paket dari repositori, semua berkas .rpm akan diunduh ke /var/cache/zypp/packages, lalu akan dihapus setelah proses instalasi selesai. Tapi adakalanya kita ingin menyimpan berkas-berkas .rpm tersebut untuk dipasang di komputer lain. Atau ketika kita memasang pake...',
     image: 'https://opensuse.id/wp-content/uploads/2019/03/yast-2.png',
@@ -721,7 +730,7 @@ export const allBlogPosts = [
     slug: 'menyimpan-berkas-rpm-hasil-instalasi'
   },
   {
-    id: 79,
+    id: 80,
     title: 'Mencoba GNOME 3.32 di openSUSE Tumbleweed',
     excerpt: 'GNOME 3.32 dengan codename Taipei rilis hari ini. Berita rilis ada disini, sedangkan catatan rilis ada disini. Sampai tulisan ini ditulis, GNOME 3.32 baru dapat dicoba pada openSUSE Tumbleweed dengan repo GNOME Next. Penasaran ingin mencobanya? Silakan unduh berkas .iso disini (sha256).',
     image: 'https://opensuse.id/wp-content/uploads/2019/03/VirtualBox_tumbleweed-gnome_14_03_2019_13_46_07-1232x770.png',
@@ -730,7 +739,7 @@ export const allBlogPosts = [
     slug: 'mencoba-gnome-3-32-di-opensuse-tumbleweed'
   },
   {
-    id: 80,
+    id: 81,
     title: 'snapper-boot',
     excerpt: 'Di tulisan saya sebelumnya tentang Membuat konfigurasi Snapper saya menuliskan bagaimana cara membuat snapshot otomatis saat booting. Di sana saya menggunakan service systemd untuk semua konfigurasi Snapper (root, home, var, local, srv, su dan opt). Di tulisan ini saya ingin membuatnya lebih sede...',
     image: '',
@@ -739,7 +748,7 @@ export const allBlogPosts = [
     slug: 'snapper-boot'
   },
   {
-    id: 81,
+    id: 82,
     title: 'Memasang GNOME Boxes Beta dengan Flatpak pada openSUSE Leap 15.0',
     excerpt: 'Sekarang Anda dapat memasang Flatpak Beta dari Flatpak, lebih lanjut silakan dibaca disini. Sebelum mencoba panduan ini, pastikan Anda sudah memasang flatpak. Sebelum GNOME Boxes 3.32 rilis, kita bisa mencoba versi 3,31 (beta) dengan cara berikut. Menambahkan repo Flatpak Beta dari Flathub flatpa...',
     image: 'https://opensuse.id/wp-content/uploads/2019/02/tsQsq4cF_400x400-250x250.jpg',
@@ -748,7 +757,7 @@ export const allBlogPosts = [
     slug: 'memasang-gnome-boxes-beta-dengan-flatpak-pada-opensuse-leap-15-0'
   },
   {
-    id: 82,
+    id: 83,
     title: 'Membuat fitur serupa Deep Freeze',
     excerpt: 'Bagi Anda yang pernah ke warung internet (warnet) atau pernah mengelola warnet mungkin mengetahui sebuah software bernama Deep Freeze. Software ini digunakan untuk menyimpan kondisi komputer pada keadaan tertentu dan memuatnya kembali saat komputer dijalankan. Jadi meskipun kita melakukan banyak ...',
     image: '',
@@ -757,7 +766,7 @@ export const allBlogPosts = [
     slug: 'membuat-fitur-serupa-deep-freeze'
   },
   {
-    id: 83,
+    id: 84,
     title: 'Memperbaiki tampilan VLC yang membesar pada GNOME di openSUSE Leap 15.0',
     excerpt: 'Hal ini bermula dari keisengan saya yang mencoba menginstall VLC melalui repo packman, karena biasanya saya menginstall VLC ini melalui flatpak dan masalah ini tidak terjadi. Jadi ketika menginstall VLC dari repo packman tampilan VLC sungguh tidak manusiawi, tampilan VLC jadi besar sekali, beriku...',
     image: '',
@@ -766,7 +775,7 @@ export const allBlogPosts = [
     slug: 'memperbaiki-tampilan-vlc-yang-membesar-pada-gnome-di-opensuse-leap-15-0'
   },
   {
-    id: 84,
+    id: 85,
     title: 'Memasang OneDrive di openSUSE Leap 15.0',
     excerpt: 'Pasang dependensi sudo zypper in libcurl-devel sqlite3-devel curl -fsS https://dlang.org/install.sh | bash -s dmd Catatan: meskipun paket dmd ada di repositori openSUSE, dalam panduan ini disarankan memasang dari kode sumber sesuai cara diatas. Klon dan pasang git clone https://github.com/skilion...',
     image: 'https://opensuse.id/wp-content/uploads/2019/01/onedrive-250x250.jpg',
@@ -775,7 +784,7 @@ export const allBlogPosts = [
     slug: 'memasang-onedrive-di-opensuse-leap-15-0'
   },
   {
-    id: 85,
+    id: 86,
     title: 'Pengumuman Pemenang Quiz openSUSE Indonesia',
     excerpt: 'Pertama kami ucapkan terima kasih kepada seluruh peserta yang telah berpartisi di event #QuizoSID 2018 kali ini Setelah berdiskusi tertutup kami memutuskan memilih 2 pemenang yaitu: Aldiansyah – https://aldhiansyah.wordpress.com/2018/12/31/install-dan-konfigurasi-cacti-network-monitoring-di-opens...',
     image: '',
@@ -784,7 +793,7 @@ export const allBlogPosts = [
     slug: 'pengumuman-pemenang-quiz-opensuse-indonesia'
   },
   {
-    id: 86,
+    id: 87,
     title: 'openSUSE Indonesia, Kilas Balik 2018',
     excerpt: 'Tahun 2018 adalah tahun yang luar biasa untuk komunitas openSUSE Indonesia. Ada cukup banyak pencapaian kita sebagai komunitas yang cukup membanggakan. Sebagai orang lama dalam komunitas ini saya merasa cukup banyak bermunculan orang muda yang bisa jadi panutan bagi generasi mendatang di kemudian...',
     image: 'https://opensuse.id/wp-content/uploads/2018/12/sunset-250x250.jpg',
@@ -793,7 +802,7 @@ export const allBlogPosts = [
     slug: 'opensuse-indonesia-kilas-balik-2018'
   },
   {
-    id: 87,
+    id: 88,
     title: 'Membuat konfigurasi Snapper',
     excerpt: 'PERHATIAN: Tulisan ini hanya berlaku untuk openSUSE Leap 15.0 ke atas atau Tumbleweed saja. Karena sebagian fitur dalam tulisan ini tidak ada di versi sebelumnya. Jika kita memasang openSUSE dengan pilihan baku, menggunakan filesystem BtrFS, akan secara otomatis dibuatkan snapshot yang bisa dikel...',
     image: '',
@@ -802,7 +811,7 @@ export const allBlogPosts = [
     slug: 'membuat-konfigurasi-snapper'
   },
   {
-    id: 88,
+    id: 89,
     title: 'Memasang Dropbox pada openSUSE Leap 15.0 dengan Sistem Berkas XFS',
     excerpt: 'Seperti diketahui bahwa Dropbox menghentikan dukungan mereka pada beberapa jenis sistem berkas dan pada Linux hanya akan mendukung Ext4. Lantas bagaimana dengan sistem berkas XFS atau Btrfs? Panduan ini mencoba untuk menjalankan Dropbox pada openSUSE Leap 15.0 dengan sistem berkas XFS. Pasang Dro...',
     image: 'https://opensuse.id/wp-content/uploads/2018/12/com.dropbox.Client.png',
@@ -811,7 +820,7 @@ export const allBlogPosts = [
     slug: 'memasang-dropbox-pada-opensuse-leap-15-0-dengan-sistem-berkas-xfs'
   },
   {
-    id: 89,
+    id: 90,
     title: 'Memasang Virtualbox 6.0 pada openSUSE Leap 15.0',
     excerpt: 'Sampai tulisan ini ditulis, versi Virtualbox pada repo openSUSE Leap 15.0 adalah 5.2.22, sedangkan Virtualbox versi 6.0 baru saja dirilis pada 18 Desember 2018 yang lalu. Berikut ini adalah cara memasang Virtualbox 6.0 pada openSUSE Leap 15.0. Unduh Pasang Selamat mencoba, have fun!',
     image: 'https://opensuse.id/wp-content/uploads/2018/12/VirtualBox_transactional_28_12_2018_17_34_57-250x250.png',
@@ -820,7 +829,7 @@ export const allBlogPosts = [
     slug: 'memasang-virtualbox-6-0-pada-opensuse-leap-15-0'
   },
   {
-    id: 90,
+    id: 91,
     title: 'Memperbaiki VirtualBox yang tidak bisa dijalankan setelah update kernel di openSUSE Tumbleweed',
     excerpt: 'openSUSE Tumbleweed melakukan updte secara berkala, dan kadang-kadang melakukan update kernel. Dan yang jadi permasalahan adalah, setelah update kernel, adakalanya beberapa aplikasi tidak bisa dijalankan, salah satunya adalah virtualbox. Ketika virtualbox dijalankan melalui terminal, akan ada inf...',
     image: '',
@@ -829,7 +838,7 @@ export const allBlogPosts = [
     slug: 'memperbaiki-virtualbox-yang-tidak-bisa-dijalankan-setelah-update-kernel-di-opensuse-tumbleweed'
   },
   {
-    id: 91,
+    id: 92,
     title: 'KDE Global Menu di aplikasi GTK',
     excerpt: 'Dukungan Global Menu di aplikasi GTK resmi diperkenalkan di pengumuman rilis Plasma 5.14, setelah di Plasma 5.13 statusnya sebagai tech preview. Pengguna openSUSE Tumbleweed sekarang sudah bisa menikmatinya, dan begini caranya. Pasang paket appmenu-gtk2-module untuk dukungan di aplikasi GTK+2 dan...',
     image: '',
@@ -838,7 +847,7 @@ export const allBlogPosts = [
     slug: 'kde-global-menu-di-aplikasi-gtk'
   },
   {
-    id: 92,
+    id: 93,
     title: 'Memasang OpenVPN Pada openSUSE Leap',
     excerpt: 'Seringkali kita harus mengakses jaringan baik di kantor, cloud provider, atau pelanggan kita melalui jaringan internet menggunakan VPN. Ada banyak implementasi VPN, yang paling sering digunakan adalah PPTP karena gampang untuk mengkonfigurasinya, percayalah PPTP itu tidak aman 😉 Salah satu yang c...',
     image: 'https://opensuse.id/wp-content/uploads/2018/11/openvpn.png',
@@ -847,7 +856,7 @@ export const allBlogPosts = [
     slug: 'memasang-openvpn-pada-opensuse-leap'
   },
   {
-    id: 93,
+    id: 94,
     title: 'Cara memperbaiki issue “Failed to start setup Virtual Console”',
     excerpt: 'Dalam beberapa update openSUSE Leap kemarin saya menemukan sedikit issue ketika boot openSUSE di laptop saya, yaitu issue munculnya tulisan “Failed to start setup Virtual Console”, nah tampilannya seperti ini mungkin issue ini tidak begitu penting karena tidak berpengaruh apa – apa terhadap kiner...',
     image: '',
@@ -856,7 +865,7 @@ export const allBlogPosts = [
     slug: 'cara-memperbaiki-issue-failed-to-start-setup-virtual-console'
   },
   {
-    id: 94,
+    id: 95,
     title: 'FLOSS Untuk Indonesia',
     excerpt: 'Sabtu, 27 Oktober 2018 Biznet Networks HQ Midplaza 2, Floor 15th Jl. Jend. Sudirman Kav 10-11 https://g.co/kgs/NZMfAu',
     image: 'https://opensuse.id/wp-content/uploads/2018/10/44757109_10215188078269878_7691354964693614592_n-250x250.jpg',
@@ -865,7 +874,7 @@ export const allBlogPosts = [
     slug: 'floss-untuk-indonesia'
   },
   {
-    id: 95,
+    id: 96,
     title: 'Memasang aplikasi Flatpak ke direktori HOME atau partisi lain',
     excerpt: 'Bagi Anda yang belum pernah mencoba memasang aplikasi berformat Flatpak, Anda bisa mencobanya di openSUSE dengan memasang paket flatpak melalui perintah zypper install flatpak sebagai root atau dengan menggunakan sudo. Atau melalui YaST. Umumnya, aplikasi Flatpak secara baku akan terpasang di dir...',
     image: '',
@@ -874,7 +883,7 @@ export const allBlogPosts = [
     slug: 'memasang-aplikasi-flatpak-ke-direktori-home-atau-partisi-lain'
   },
   {
-    id: 96,
+    id: 97,
     title: 'Memasang pgadmin4 pada Tumbleweed',
     excerpt: 'Singkat cerita saya meng-upgrade postgresql dari 9.6 ke 10.5, dan ketika mengaksesnya dengan pgadmin3 ada peringatan bahwa pgadmin3 tidak fully support postgresql di atas 10.0.0. Wah… Saya cek ke website nya ternyata pengembangan pgadmin3 sudah dihentikan, dan pengguna disarankan pindah ke pgadmi...',
     image: 'https://opensuse.id/wp-content/uploads/2018/09/pgAdmin4-250x250.png',
@@ -883,7 +892,7 @@ export const allBlogPosts = [
     slug: 'memasang-pgadmin4-pada-tumbleweed'
   },
   {
-    id: 97,
+    id: 98,
     title: 'Memasang Vivaldi Pada openSUSE',
     excerpt: 'Vivaldi 2.0 baru saja dirilis hari ini. Mari mencoba memasangnya pada openSUSE. Versi yang digunakan disini adalah openSUSE Leap 15.0. Unduh kunci publik Vivaldi wget https://repo.vivaldi.com/stable/linux_signing_key.pub Impor kunci publik Vivaldi sudo rpm –import linux_signing_key.pub Tambahkan ...',
     image: 'https://opensuse.id/wp-content/uploads/2018/09/two-point-oh-hero-d-250x250.jpg',
@@ -892,7 +901,7 @@ export const allBlogPosts = [
     slug: 'memasang-vivaldi-pada-opensuse'
   },
   {
-    id: 98,
+    id: 99,
     title: 'Kopdar openSUSE-ID di BEKRAF Habibie Festival 2018',
     excerpt: 'RSVP: https://gettogether.community/events/219/kopdar-opensuse-id-di-bekraf-habibie-festival-2018/',
     image: 'https://opensuse.id/wp-content/uploads/2018/09/kopdar-BHF-2018-250x250.png',
@@ -901,7 +910,7 @@ export const allBlogPosts = [
     slug: 'kopdar-opensuse-id-di-bekraf-habibie-festival-2018'
   },
   {
-    id: 99,
+    id: 100,
     title: 'Menambah repositori Snapshot bagi pengguna Tumbleweed',
     excerpt: 'Tumbleweed adalah distribusi rolling dari openSUSE. Seperti distribusi rolling lainnya, perubahan di Tumbleweed juga sangat cepat. Dan seperti distribusi rolling pada umumnya, ketika ingin memperbarui paket-paket yang sudah terpasang, kita harus memperbarui sistem secara keseluruhan untuk menghin...',
     image: '',
@@ -910,7 +919,7 @@ export const allBlogPosts = [
     slug: 'menambah-repositori-snapshot-bagi-pengguna-tumbleweed'
   },
   {
-    id: 100,
+    id: 101,
     title: 'Cerita Dari Taipei: COSCUP X openSUSE.Asia Summit X GNOME.Asia Summit 2018',
     excerpt: 'openSUSE.Asia Summit 2018 baru saja digelar di National Taiwan University of Science and Technology berbarengan dengan COSCUP dan GNOME.Asia Summit. Rombongan dari Indonesia sendiri pada akhirnya berjumlah 15 orang (openSUSE-ID, GNOME-ID, LibreOffice-ID) termasuk pak Iwan Tahari dan saudaranya ya...',
     image: 'https://opensuse.id/wp-content/uploads/2018/07/logo-250x250.png',
@@ -919,7 +928,7 @@ export const allBlogPosts = [
     slug: 'cerita-dari-taipei-coscup-x-opensuse-asia-summit-x-gnome-asia-summit-2018'
   },
   {
-    id: 101,
+    id: 102,
     title: 'openSUSE Indonesia Akan Hadir di Taipei!',
     excerpt: 'Gelaran openSUSE.Asia Summit 2018 akan dimulai beberapa hari lagi. 2018 ini merupakan tahun kelima setelah sebelumnya diselenggarakan di Beijing, Cina, 2014 https://events.opensuse.org/conference/summitasia14 Taipei, Taiwan, 2015 https://events.opensuse.org/conference/summitasia15 Yogyakarta, Ind...',
     image: 'https://opensuse.id/wp-content/uploads/2018/07/logo-250x250.png',
@@ -928,7 +937,7 @@ export const allBlogPosts = [
     slug: 'opensuse-indonesia-akan-hadir-di-taipei'
   },
   {
-    id: 102,
+    id: 103,
     title: 'Memasang PowerShell pada openSUSE Leap 15.0',
     excerpt: 'Sudahkah Anda tahu bahwa PowerShell dapat dipasang pada disribusi Linux kesayangan Anda melalui Snap? Berikut ini cara memasangnya pada openSUSE Leap 15.0. Pasang repo snap     sudo zypper addrepo –refresh http://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.0/ snappy Pasang ...',
     image: 'https://opensuse.id/wp-content/uploads/2018/07/Powershell_256-250x250.png',
@@ -937,7 +946,7 @@ export const allBlogPosts = [
     slug: 'memasang-powershell-pada-opensuse-leap-15-0'
   },
   {
-    id: 103,
+    id: 104,
     title: '11 Tahun openSUSE-ID',
     excerpt: 'Hari ini, Senin 23 Juli 2018, Komunitas openSUSE Indonesia merayakan ulang tahun yang ke 11. Berikut ini tangkapan layar mengenai sejarah pembentukan Komunitas openSUSE Indonesia yang sempat diambil cuplikan layarnya dari halaman http://wiki.opensuse-id.org:80/index.php?title=Sejarah_Komunitas_op...',
     image: 'https://opensuse.id/wp-content/uploads/2018/07/openSUSE-ID-hex-stickers-green-11-aniv-250x250.png',
@@ -946,7 +955,7 @@ export const allBlogPosts = [
     slug: '11-tahun-opensuse-id'
   },
   {
-    id: 104,
+    id: 105,
     title: 'Pesta Rilis openSUSE Leap 15.0',
     excerpt: 'Halo, Gaes! GLiB hadir kembali! Kali ini kami berkolaborasi dengan Komunitas openSUSE Indonesia akan mengadakan pesta rilis openSUSE Leap 15.0 Kita akan berbagi pengalaman dan pengetahuan dengan teman-teman seputar berkomunitas dan berkontribusi di ranah perangkat lunak bebas dan terbuka. Pada ko...',
     image: 'https://opensuse.id/wp-content/uploads/2018/06/photo_2018-06-27_14-38-53-250x250.jpg',
@@ -955,7 +964,7 @@ export const allBlogPosts = [
     slug: 'pesta-rilis-opensuse-leap-15-0'
   },
   {
-    id: 105,
+    id: 106,
     title: 'openSUSE minimal install',
     excerpt: 'Tulisan ini adalah pembaruan dari tulisan yang pernah saya tulis sebelumnya yang berjudul Install (sangat) minimal openSUSE dengan KDE Plasma dan Minimal install openSUSE dengan KDE Plasma 5 (atau GNOME 3?). Tapi di sini saya mencoba mengimplementasikan GNOME juga. Untuk Desktop Environment lain ...',
     image: '',
@@ -964,7 +973,7 @@ export const allBlogPosts = [
     slug: 'opensuse-minimal-install'
   },
   {
-    id: 106,
+    id: 107,
     title: 'Berhijrah dari openSUSE Leap 42.3 ke openSUSE Leap 15.0',
     excerpt: 'openSUSE Leap 15.0 baru saja dirilis beberapa pekan kemarin yakni tepatnya pada tanggal 25 May, pada openSUSE Leap 15.0 ini memiliki banyak pembaruan diantaranya yang menjadi sorotan dari pembaruan openSUSE Leap 15.0 ini dapat dilihat di situs kabar linux saya sendiri masih sempat bingung bagaima...',
     image: '',
@@ -973,7 +982,7 @@ export const allBlogPosts = [
     slug: 'berhijrah-dari-opensuse-leap-42-3-ke-opensuse-leap-15-0'
   },
   {
-    id: 107,
+    id: 108,
     title: 'Pesta Rilis openSUSE Leap 15 Telah Diadakan di Surabaya',
     excerpt: 'Distribusi sistem operasi berbasis Linux semakin bertambah tahun semakin baik perkembangannya, bukan hanya dari sisi enterprise saja, dari sisi komunitas mereka juga berlomba-lomba untuk menyediakan berbagai macam distribusi selevel dengan kelas enterprise, openSUSE salah satunya.',
     image: 'https://opensuse.id/wp-content/uploads/2018/06/27659200547_a108bc5e1f_k-250x250.jpg',
@@ -982,7 +991,7 @@ export const allBlogPosts = [
     slug: 'pesta-rilis-opensuse-leap-15-telah-diadakan-di-surabaya'
   },
   {
-    id: 108,
+    id: 109,
     title: 'Memperbaiki Grub error',
     excerpt: 'Grub error atau hilang bisa terjadi karena berbagai hal. Yang paling umum adalah karena memasang ulang atau update/upgrade Windows bagi pengguna dualboot yang masih menggunakan komputer dengan firmware BIOS. Atau bisa juga karena proses upgrade openSUSE yang tidak sempurna, seperti yang pernah sa...',
     image: '',
@@ -991,7 +1000,7 @@ export const allBlogPosts = [
     slug: 'memperbaiki-grub-error'
   },
   {
-    id: 109,
+    id: 110,
     title: 'Kompilasi Kernel di openSUSE',
     excerpt: 'Jaman sekarang, saat distribusi Linux seperti openSUSE dan Ubuntu sudah berkembang pesat, kompilasi kernel secara mandiri hampir sudah tidak diperlukan lagi. Kernel bawaan distribusi sudah just work, tanpa perlu bersusah payah mengunduh kode sumber kernel, melakukan konfigurasi serta melakukan ko...',
     image: 'https://opensuse.id/wp-content/uploads/2018/05/Cuplikan-layar-dari-2018-05-31-05-57-55-250x250.png',
@@ -1000,7 +1009,7 @@ export const allBlogPosts = [
     slug: 'kompilasi-kernel-di-opensuse'
   },
   {
-    id: 110,
+    id: 111,
     title: 'GNOME Recipes: Yuk Bagikan Resepmu!',
     excerpt: 'Menindaklanjuti kegiatan GNOME Recipes Hackfest 2018 yang digelar pada tanggal 28 Februari–2 Maret 2018 lalu, GNOME Indonesia berkolaborasi dengan beberapa komunitas open source seperti BlankOn, Endless, dan openSUSE Indonesia mengadakan kegiatan pengumpulan resep lokal. Kegiatan ini akan digelar...',
     image: 'https://opensuse.id/wp-content/uploads/2018/05/gnome-recipe-poster-250x250.png',
@@ -1009,7 +1018,7 @@ export const allBlogPosts = [
     slug: 'gnome-recipes-yuk-bagikan-resepmu'
   },
   {
-    id: 111,
+    id: 112,
     title: 'Chrome Remote Desktop pada openSUSE Leap',
     excerpt: 'Ketika memasang pengaya Chrome Remote Desktop dengan Google Chrome, biasanya Chrome akan mengunduh sebuah paket bernama chrome-remote-desktop. Sayangnya yang diunduh adalah chrome-remote-desktop_current_amd64.deb, padahal yang dibutuhkan adalah berkas tersebut dengan ekstensi .rpm. Maka kita perl...',
     image: '',
@@ -1018,7 +1027,7 @@ export const allBlogPosts = [
     slug: 'chrome-remote-desktop-pada-opensuse-leap'
   },
   {
-    id: 112,
+    id: 113,
     title: 'How to install Android Studio on openSUSE Leap 42.3',
     excerpt: 'Pengenalan Android Studio Pada kesempatan kali ini saya akan membahas cara instalasi android studio pada openSUSE Leap 42.3. Android Studio adalah sebuah Lingkungan terpadu atau yang kadang lebih dikenal dengan sebutan IDE (Integreted Development Environment), untuk pengembangan aplikasi Android ...',
     image: '',
@@ -1027,7 +1036,7 @@ export const allBlogPosts = [
     slug: 'how-to-install-android-studio-on-opensuse-leap-42-3'
   },
   {
-    id: 113,
+    id: 114,
     title: 'GO-TALK: Transforming Modern Infrastructure with Kubernetes',
     excerpt: 'Orchestration tools yang berkembang pesat dewasa ini hadir di dalam infrastruktur komputasi awan dan kontainer untuk mendorong industri untuk bekerja semakin cepat. Berkolaborasi dengan GO-JEK, Biznet Gio Cloud mempersembahkan GO-TALK: Transforming Modern Infrastructure with Kubernetes. Melalui e...',
     image: 'https://opensuse.id/wp-content/uploads/2018/04/photo_2018-04-14_15-12-00-250x250.jpg',
@@ -1036,7 +1045,7 @@ export const allBlogPosts = [
     slug: 'go-talk-transforming-modern-infrastructure-with-kubernetes'
   },
   {
-    id: 114,
+    id: 115,
     title: 'Wajah openSUSE-id: Mohammad Edwin Zakaria',
     excerpt: 'Nickname: Mohammad Edwin Zakaria Pekerjaan: Pekerja IT Tempat Tinggal: Jakarta Hobi: Jalan-jalan, baca buku, main gitar kalau ada waktu Motto: Gak ada yang spesifik. Hidup seperti air yang mengalir dan berusaha tidak punya banyak keinginan * * * Perkenalkan diri Anda Saya Edwin, saat ini bekerja ...',
     image: 'https://opensuse.id/wp-content/uploads/2018/03/oS-AS2015-small-Edwin-Zakaria-250x250.jpg',
@@ -1045,7 +1054,7 @@ export const allBlogPosts = [
     slug: 'wajah-opensuse-id-mohammad-edwin-zakaria'
   },
   {
-    id: 115,
+    id: 116,
     title: 'Mengaktifkan Fitur Usap dengan 3 Jari pada Touchpad di openSUSE',
     excerpt: 'Saat ini saya adalah pengguna dual boot untuk Mac dan openSUSE. Perlahan namun pasti saya akan menggunakan openSUSE ini sebagai sistem operasi utama saya. Secara nama dan kualitas, Mac memang sudah tidak diragukan lagi, fitur yang ada pun sangat lengkap, dari segi perangkat keras dan desain lapto...',
     image: '',
@@ -1054,7 +1063,7 @@ export const allBlogPosts = [
     slug: 'mengaktifkan-fitur-usap-dengan-3-jari-pada-touchpad-di-opensuse'
   },
   {
-    id: 116,
+    id: 117,
     title: 'Membuat Breeze lebih berwarna',
     excerpt: 'Sejak hadir Plasma 5, Breeze menggantikan Oxygen. Secara keseluruhan hampir semua aspek saya suka. Hanya satu yang saya kurang sreg, Window Decoration. Warna border samping (kanan & kiri) dan bawah yang sewarna dengan warna jendela kurang terasa enak dipandang menurut saya. Saya lebih suka jika s...',
     image: '',
@@ -1063,7 +1072,7 @@ export const allBlogPosts = [
     slug: 'membuat-breeze-lebih-berwarna'
   },
   {
-    id: 117,
+    id: 118,
     title: 'Memasang DNSCrypt pada openSUSE Leap',
     excerpt: 'Kenapa? Tulisan saya kemarin perihal memperbaiki LID laptop MacBook yang hidup kembali saat laptop ditutup ini memberikan banyak pencerahan, salah satu kendala yang dihadapi saat berselancar di dumay agar masalah tersebut teratasi adalah diblokir nya situs reddit.com oleh provider yang saya gunak...',
     image: 'https://opensuse.id/wp-content/uploads/2018/03/image_2018-03-10_23-27-49-1-250x250.png',
@@ -1072,7 +1081,7 @@ export const allBlogPosts = [
     slug: 'memasang-dnscrypt-pada-opensuse-leap'
   },
   {
-    id: 118,
+    id: 119,
     title: 'Memperbaiki Layar MacBook yang Hidup Kembali saat Laptop Ditutup pada openSUSE',
     excerpt: 'Baru beberapa hari saya memasang openSUSE Leap 15 pada MacBook Air dengan menimpa ulang sistem openSUSE Leap 42.3, namun saya sudah bisa merasakan performa stabilnya yang bisa dibilang memuaskan walaupun dalam versi Beta release dengan harapan penyakit-penyakit yang ada pada versi sebelumnya bisa...',
     image: '',
@@ -1081,7 +1090,7 @@ export const allBlogPosts = [
     slug: 'memperbaiki-layar-macbook-yang-hidup-kembali-saat-laptop-ditutup-pada-opensuse'
   },
   {
-    id: 119,
+    id: 120,
     title: 'Firewalld pada openSUSE Leap 15.0 – Bagian 1',
     excerpt: 'openSUSE Leap 15 rencananya akan dirilis pada bulan Mei 2018. Saat ini versi 15 telah memasuki fase beta dan rencananya akan memasuki fase RC pada bulan April 2018. Salah satu fitur yang dihilangkan pada openSUSE Leap 15 adalah SuSEfirewall, dan akan digantikan dengan Firewalld. Firewalld dikemba...',
     image: 'https://opensuse.id/wp-content/uploads/2018/03/firewalld-250x74.png',
@@ -1090,7 +1099,7 @@ export const allBlogPosts = [
     slug: 'firewalld-pada-opensuse-leap-15-0-bagian-1'
   },
   {
-    id: 120,
+    id: 121,
     title: 'openSUSE dan openSUSE-ID Berpartisipasi Pada LibreOffice Conference Indonesia 2018',
     excerpt: 'openSUSE dan openSUSE-ID turut menjadi sponsor dalam LibreOffice Conference Indonesia 2018. Yuk semua mari merapat, kami akan membuka booth dan Anda bisa mendapatkan cenderamata dari openSUSE seperti gambar di bawah. Sampai jumpa di Surabaya.',
     image: 'https://opensuse.id/wp-content/uploads/2018/03/facebook-banner-250x250.png',
@@ -1099,7 +1108,7 @@ export const allBlogPosts = [
     slug: 'opensuse-dan-opensuse-id-berpartisipasi-pada-libreoffice-conference-indonesia-2018'
   },
   {
-    id: 121,
+    id: 122,
     title: 'openSUSE dan Komunitas openSUSE Indonesia di LibreOffice Conference 2018',
     excerpt: 'Konferensi LibreOffice 2018 usai dilaksanakan satu minggu yang lalu. Namun, euphoria kehebohan acara tersebut masih sangat terasa hingga sekarang. Karena acara ini diikuti dari berbagai negara, kalangan, latar belakang, usia, dan komunitas. Acara ini diikuti oleh kurang lebih 300 peserta. LibreOf...',
     image: 'https://opensuse.id/wp-content/uploads/2018/03/41021992451_d6e7e301a8_k-250x250.jpg',
@@ -1108,7 +1117,7 @@ export const allBlogPosts = [
     slug: 'opensuse-dan-komunitas-opensuse-indonesia-di-libreoffice-conference-2018'
   },
   {
-    id: 122,
+    id: 123,
     title: 'openSUSE Berpartisipasi di GSoC – Kamu Mahasiswa/i? Ayo Ikutan! *)',
     excerpt: '*Tulisan ini adalah terjemahan bebas dari tulisan di blog Ana María Martínez   openSUSE berpartisipasi lagi dalam Google Summer of Code (GSoC) 2018, sebuah program yang memberikan penghargaan bagi para mahasiswa/i yang berkontribusi untuk proyek sumber terbuka dunia nyata selama tiga bulan pada m...',
     image: 'https://opensuse.id/wp-content/uploads/2018/02/meetup-gsoc-250x250.jpg',
@@ -1117,7 +1126,7 @@ export const allBlogPosts = [
     slug: 'opensuse-berpartisipasi-di-gsoc-kamu-mahasiswai-ayo-ikutan'
   },
   {
-    id: 123,
+    id: 124,
     title: 'Memasang VLC 3.0 Menggunakan Flatpak pada openSUSE',
     excerpt: 'VLC 3.0 baru saja dirilis. Lima fitur unggulannya antara lain: Dukungan chromecast VLC 3.0 merupakan rilis LTS (Long Term Support) Dukungan penjelajahan jaringan Dukungan adaptive streaming Sudah menggunakan openGL pada Linux untuk memutar video 4K dengan smooth Berikut ini cara memasang VLC meng...',
     image: 'https://opensuse.id/wp-content/uploads/2018/02/vlc-250x250.png',
@@ -1126,7 +1135,7 @@ export const allBlogPosts = [
     slug: 'memasang-vlc-3-0-menggunakan-flatpak-pada-opensuse'
   },
   {
-    id: 124,
+    id: 125,
     title: 'Rafi dan openSUSE',
     excerpt: 'Rafi, berkacamata, nomor 3 dari kanan Sekilas mengenai Rafi dan kesibukannya. Muhammad Rafi, Beliau adalah mahasiswa STT Nuruf Fikri. Jiwa muda, sosok idealis. Pertama ikut berkontribusi di proyek perangkat lunak bebas dan terbuka setelah dirayu-rayu oleh Pak Ahmad Haris saat mengisi acara di kam...',
     image: 'https://opensuse.id/wp-content/uploads/2018/02/36346068826_fae7e4ffc4_z-250x250.jpg',
@@ -1135,7 +1144,7 @@ export const allBlogPosts = [
     slug: 'rafi-dan-opensuse'
   },
   {
-    id: 125,
+    id: 126,
     title: 'LibreOffice 6.0 portable untuk Linux',
     excerpt: 'The Document Foundation baru saja merilis LibreOffice 6.0 beberapa hari lalu. Bagi pengguna openSUSE Tumbleweed, LibreOffice terbaru ini bahkan sudah ada sejak beberapa minggu lalu, ketika statusnya masih pre release. Untuk pengguna openSUSE Leap sepertinya tidak akan bisa menikmatinya jika hanya...',
     image: '',
@@ -1144,7 +1153,7 @@ export const allBlogPosts = [
     slug: 'libreoffice-6-0-portable-untuk-linux'
   },
   {
-    id: 126,
+    id: 127,
     title: 'Stellarium kini menyediakan berkas AppImage untuk Linux',
     excerpt: 'Stellarium adalah software yang selalu terpasang di komputer saya. Software ini biasanya saya gunakan untuk melihat bulan baru untuk menentukan tanggal 1 bulan Hijriyyah. Ini sangat bermanfaat terutama ketika menghadapi bulan Ramadhan dan Syawal atau Dzulhijjah. Biasanya saya memasang Stellarium ...',
     image: '',
@@ -1153,7 +1162,7 @@ export const allBlogPosts = [
     slug: 'stellarium-kini-menyediakan-berkas-appimage-untuk-linux'
   },
   {
-    id: 127,
+    id: 128,
     title: 'Mengarahkan Domain dengan ssl ke Domain Lain pada Nginx',
     excerpt: 'Tempat saya bekerja mempunyai domain co.id (domain_lama) yang sudah lama sekali dipergunakan. Ketika domain .id mulai diperkenalkan, saya membeli domain .id (domain_baru) untuk perusahaan tempat saya bekerja. Masalahnya saya tidak ingin memaintain kedua domain tersebut. Apa yang saya lakukan adal...',
     image: 'https://opensuse.id/wp-content/uploads/2018/01/nginx-1.png',
@@ -1162,7 +1171,7 @@ export const allBlogPosts = [
     slug: 'mengarahkan-domain-dengan-ssl-ke-domain-lain-pada-nginx'
   },
   {
-    id: 128,
+    id: 129,
     title: 'Lomba berhadiah dari openSUSE Indonesia',
     excerpt: 'Ya benar, openSUSE Indonesia mengadakan perlombaan berhadiah. Dengan hanya menulis artikel di blog sendiri, Anda bisa mendapatkan hadiah menarik yang disediakan oleh panitia. Hadiah yang akan didapatkan oleh pemenang adalah sebuah majalah Linux Magazine seharga £7.99 atau sekitar Rp145.000,- deng...',
     image: 'https://opensuse.id/wp-content/uploads/2018/01/hadiah-opensuse-250x250.jpg',
@@ -1171,7 +1180,7 @@ export const allBlogPosts = [
     slug: 'lomba-berhadian-dari-opensuse-indonesia'
   },
   {
-    id: 129,
+    id: 130,
     title: 'Cara Install Sublime Text pada openSUSE Leap 42.3',
     excerpt: 'Sublime text adalah text editor yang cukup terkenal dengan beberapa fitur – fitur bagus yang terdapat didalamnya. Dimana Sublime ini juga menjadi salah satu editor yang banyak digunakan. Dan adapun Sublime Text ini bersifat gratis tapi jika anda ingin membeli lisensi Sublime ini dihargai $70, jik...',
     image: '',
@@ -1180,7 +1189,7 @@ export const allBlogPosts = [
     slug: 'cara-install-sublime-text-pada-opensuse-leap-42-3'
   },
   {
-    id: 130,
+    id: 131,
     title: 'Cara Install Jupyter Notebook Pada openSUSE Leap 42.3',
     excerpt: 'Pada tulisan ini, saya ingin berbagi cara untuk pemasangan jupyter-notebook pada openSUSE 42.3, tentunya aplikasi ini tidak asing bagi para pengguna bahasa pemrograman python, sebenarnya instalasi jupyter-notebook bisa dilakukan dengan menggunakan aplikasi anaconda dari situs jupyter project. Nam...',
     image: 'https://opensuse.id/wp-content/uploads/2017/12/Screenshot_20171230_210128-250x250.png',
@@ -1189,7 +1198,7 @@ export const allBlogPosts = [
     slug: 'cara-install-jupyter-notebook-pada-opensuse-leap-42-3'
   },
   {
-    id: 131,
+    id: 132,
     title: 'Mengembalikan perubahan pada sebuah direktori beserta isinya',
     excerpt: 'Salah satu kelebihan openSUSE dibanding distro lain adalah secara baku menggunakan BtrFS sebagai filesystem yang juga secara otomatis mengaktifkan fitur snapshot yang dikelola oleh Snapper. Semua ini sebenarnya bisa juga diterapkan di distro lain, tapi butuh pengetahuan lebih untuk melakukannya. ...',
     image: 'https://opensuse.id/wp-content/uploads/2017/12/snapper_yast2_diff-250x250.png',
@@ -1198,7 +1207,7 @@ export const allBlogPosts = [
     slug: 'mengembalikan-perubahan-pada-sebuah-direktori-beserta-isinya'
   },
   {
-    id: 132,
+    id: 133,
     title: 'Memasang Firefox Quantum dengan AppImage pada openSUSE Leap',
     excerpt: 'Sudah tidak sabar mencoba Firefox Quantum? Buka laman ini Unduh Firefox Quantum AppImage Setelah terunduh, klik kanan pada berkas .AppImage lalu pilih Properti Pada tab Hak Akses, beri tanda centang pada kotak Eksekusi Kemudian klik kanan pada berkas .AppImage lalu pilih Jalankan Bila ada jendela...',
     image: 'https://opensuse.id/wp-content/uploads/2017/11/VirtualBox_Leap-42.3_15_11_2017_13_25_35-250x250.png',
@@ -1207,7 +1216,7 @@ export const allBlogPosts = [
     slug: 'memasang-firefox-quantum-dengan-appimage-pada-opensuse-leap'
   },
   {
-    id: 133,
+    id: 134,
     title: 'Memasang Docker-CE pada openSUSE Leap 42.2 dan 42.3',
     excerpt: 'Dalam dokumentasi resmi Docker, tidak ada lagi laman dokumentasi pemasangan docker-ce untuk openSUSE. Jadi berikut adalah langkah-langkah untuk memasang docker-ce pada openSUSE Leap 42.2 maupun 42.3. Buat berkas konfigurasi repo. sudo vim /etc/zypp/repos.d/docker.reposudo vim /etc/zypp/repos.d/do...',
     image: 'https://opensuse.id/wp-content/uploads/2017/11/docker-official-800-250x250.png',
@@ -1216,7 +1225,7 @@ export const allBlogPosts = [
     slug: 'memasang-docker-ce-pada-opensuse-leap-42-2-dan-42-3'
   },
   {
-    id: 134,
+    id: 135,
     title: 'Memasang Cisco Packet Tracer 7.1 di openSUSE Leap 42.3',
     excerpt: '1. Unduh Cisco Packet Tracer 7.1 di https://www.netacad.com/ 2. Buat folder sementara mkdir sementaramkdir sementara 3. Ekstrak file .tar.gz tar -xvf PacketTracer71_64bit_linux.tar.gz -c sementara/tar -xvf PacketTracer71_64bit_linux.tar.gz -c sementara/ 4. Pasang Packet Tracer sudo ./installsudo ...',
     image: 'https://opensuse.id/wp-content/uploads/2017/11/Selection_050-250x250.png',
@@ -1225,7 +1234,7 @@ export const allBlogPosts = [
     slug: 'memasang-cisco-packet-tracer-7-1-di-opensuse-leap-42-3'
   },
   {
-    id: 135,
+    id: 136,
     title: 'Cara Instalasi Netbeans 8.2 Di openSUSE Leap 42.3',
     excerpt: 'Untuk menginstall Netbeans 8.2 di openSUSE Leap 42.3 lakukan langkah-langkah berikut ini: Komputer harus terkoneksi internet Download dan install dulu Oracle JDK 8 wget -c http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.rpm?AuthParam=1510...',
     image: '',
@@ -1234,7 +1243,7 @@ export const allBlogPosts = [
     slug: 'cara-instalasi-netbeans-8-2-di-opensuse-leap-42-3-64-bit'
   },
   {
-    id: 136,
+    id: 137,
     title: 'Instalasi Oracle Java Jre 8 (Jre-8u151-Linux-X64.Rpm) Di openSUSE Leap 42.3',
     excerpt: 'Karena ada aplikasi yang harus dijalankan dengan syarat Oracle Jre 8 terinstall di system maka openSUSE Leap 42.3 yang terinstall di komputer saya harus menginstallnya. Begini langkah-langkahnya: Komputer harus terkoneksi internet Buka terminal wget -c http://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u...',
     image: '',
@@ -1243,7 +1252,7 @@ export const allBlogPosts = [
     slug: 'cara-instalasi-oracle-java-jre-8-jre-8u151-linux-x64-rpm-di-opensuse-leap-42-3-64-bit'
   },
   {
-    id: 137,
+    id: 138,
     title: 'Cara Mencetak Lebih Dari 1 Photo Dalam 1 Lembar Di Kertas Di openSUSE Leap 42.3',
     excerpt: 'Saya ada kebutuhan untuk mencetak lebih dari 1 photo dalam 1 lembar dan ingin mengerjakannya di Linux terutama openSUSE 42.3. Software yang bisa dipakai adalah Shotwell. Berikut tutorialnya: 1. Komputer harus terkoneksi internet 2. Install shotwell sudo zypper in shotwellsudo zypper in shotwell 3...',
     image: '',
@@ -1252,7 +1261,7 @@ export const allBlogPosts = [
     slug: 'cara-mencetak-lebih-dari-1-photo-dalam-1-lembar-di-kertas-di-opensuse-leap-42-3'
   },
   {
-    id: 138,
+    id: 139,
     title: 'Instalasi Telegram Messenger Di openSUSE Leap 42.3',
     excerpt: 'Untuk menginstall Telegram Messenger pada openSUSE Leap 42.3 ikuti langkah berikut ini: Komputer harus terkoneksi internet Download file https://software.opensuse.org/ymp/home:bgta:desktop/openSUSE_Leap_42.3/telegram.ymp?base=openSUSE%3ALeap%3A42.3&query=telegram Buka file tersebut dengan yast Ik...',
     image: '',
@@ -1261,7 +1270,7 @@ export const allBlogPosts = [
     slug: 'cara-install-telegram-messanger-di-opensuse-leap-42-3'
   },
   {
-    id: 139,
+    id: 140,
     title: 'Cara Install Font Microsoft Di openSUSE Leap 42.3',
     excerpt: 'Untuk menginstall font Microsoft di openSUSE 42.3 ikuti langkah berikut ini: Download file berikut https://software.opensuse.org/ymp/openSUSE:Leap:42.3:Update/standard/fetchmsttfonts.ymp?base=openSUSE%3ALeap%3A42.3&query=fetchmsttfonts Buka file tersebut dengan menggunakan yast Ikuti langkah-lang...',
     image: '',
@@ -1270,7 +1279,7 @@ export const allBlogPosts = [
     slug: 'cara-install-font-microsoft-di-opensuse-leap-42-3'
   },
   {
-    id: 140,
+    id: 141,
     title: 'Cara Upgrade openSUSE Leap 42.1 Ke 42.2',
     excerpt: 'Server SIMRS Khanza saya memakai openSUSE Leap 42.1, ternyata pada saat mau menginstall software lagi repositorinya sudah tidak aktif lagi, ada sih 1 repositori yang masih aktif yaitu http://repo.opensuse.id/ , tapi berhubung takut suatu ketika tidak aktif lagi sayapun melakukan upgrade ke versi ...',
     image: '',
@@ -1279,7 +1288,7 @@ export const allBlogPosts = [
     slug: 'cara-upgrade-opensuse-leap-42-1-ke-42-2'
   },
   {
-    id: 141,
+    id: 142,
     title: 'Memperbaiki Papan Tik MacBook Air pada openSUSE Leap (atau Linux Systemd)',
     excerpt: 'Salah satu kendala jika kita memasang linux pada MacBook Air adalah dimana tombol backtick/Tilde yang tidak dapat berfungsi sesuai dengan keluarannya. Biasanya tombol tersebut akan menampilkan simbol lain. Hal ini tentu menyulitkan bilamana kita hendak membuat suatu kode maupun dalam kegiatan men...',
     image: '',
@@ -1288,7 +1297,7 @@ export const allBlogPosts = [
     slug: 'memperbaiki-keyboard-macbook-air-pada-opensuse-leap-atau-linux-systemd'
   },
   {
-    id: 142,
+    id: 143,
     title: 'openSUSE Asia Summit 2017, Sebuah Cerita dari Tokyo',
     excerpt: 'Foto diambil dari kamera Edwin Zakaria   Ditahun 2017 ini, Komunitas openSUSE Indonesia berkesempatan mengirimkan kontingen pada openSUSE Asia Summit 2017 di Tokyo, Jepang. Awalnya kontingen ini berjumlah 15 orang, karena satu dan lain hal, kontingen yang berangkat akhirnya hanya 12 orang. Dianta...',
     image: 'https://opensuse.id/wp-content/uploads/2017/10/37915158196_ff864084ff_o-250x250.jpg',
@@ -1297,7 +1306,7 @@ export const allBlogPosts = [
     slug: 'opensuse-asia-summit-2017-sebuah-cerita-dari-tokyo'
   },
   {
-    id: 143,
+    id: 144,
     title: 'openSUSE Indonesia akan hadir di Tokyo!',
     excerpt: 'Kurang dari satu minggu lagi openSUSE Asia Summit 2017 akan dilaksanakan. Tahun ini openSUSE Asia Summit akan dilaksanakan di Tokyo, Jepang. Acara tersebut akan dihadiri oleh pengguna maupun kontributor openSUSE/FOSS se-Asia seperti dari China, Taiwan, Jepang dan Indonesia. Tidak hanya dari Asia,...',
     image: 'https://opensuse.id/wp-content/uploads/2017/10/opensuse-asia-17-logo-borderless-red-trans-250x250.png',
@@ -1306,7 +1315,7 @@ export const allBlogPosts = [
     slug: 'opensuse-indonesia-akan-hadir-di-tokyo'
   },
   {
-    id: 144,
+    id: 145,
     title: 'Pasang Google Chrome web browser di openSUSE Leap dan openSUSE Tumbleweed',
     excerpt: 'Panduan kali ini yaitu memasang Google Chrome web browser di sistem openSUSE kita, dimana tulisan ini bersumber dari https://www.google.com/linuxrepositories/. Oke tanpa bicara panjang lebar langsung saja kita mulai! Pertama, buka konsole lalu tambahkan Linux Package Signing Keys Google: wget htt...',
     image: 'https://opensuse.id/wp-content/uploads/2017/10/Screenshot_20171010_184051-250x250.png',
@@ -1315,7 +1324,7 @@ export const allBlogPosts = [
     slug: 'pasang-google-chrome-web-browser-di-opensuse-leap-dan-opensuse-tumbleweed'
   },
   {
-    id: 145,
+    id: 146,
     title: 'Memasang Visual Studio Code pada openSUSE Tumbleweed',
     excerpt: 'Buka terminal, lalu pasang repositori Visual Studio Code untuk openSUSE (dapat pula dipasang pada openSUSE Leap) sudo rpm –import https://packages.microsoft.com/keys/microsoft.asc sudo sh -c ‘echo -e “[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled...',
     image: 'https://opensuse.id/wp-content/uploads/2017/10/Cuplikan-layar-dari-2017-10-10-11-53-44-250x250.png',
@@ -1324,7 +1333,7 @@ export const allBlogPosts = [
     slug: 'memasang-visual-studio-code-pada-opensuse-tumbleweed'
   },
   {
-    id: 146,
+    id: 147,
     title: 'Memasang MEGAsync client di openSUSE Tumbleweed',
     excerpt: 'MEGA adalah layanan cloud storage yang memberikan kapasitas penyimpanan data sebesar 50GB secara gratis. Layanan MEGA sama halnya dengan media penyimpanan online lainnya seperti: Google Drive, Dropbox, Mediafire, 4Shared dan lain-lain. Pasang MEGAsync client: Buat akun/daftar di https://mega.nz U...',
     image: 'https://opensuse.id/wp-content/uploads/2017/10/Screenshot_20171006_182035-250x250.png',
@@ -1333,7 +1342,7 @@ export const allBlogPosts = [
     slug: 'memasang-megasync-client-di-opensuse-tumbleweed'
   },
   {
-    id: 147,
+    id: 148,
     title: 'Memasang Spotify Melalui Flatpak pada openSUSE Tumbleweed',
     excerpt: 'Pasang flatpak sudo zypper install flatpak Tambahkan lumbung flathub flatpak remote-add –if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Isi sandi root Pasang spotify (bila ada permintaan untuk memasang runtime dari GNOME, pilih ya) flatpak install –from https://flathub.org/rep...',
     image: 'https://opensuse.id/wp-content/uploads/2017/09/Cuplikan-layar-dari-2017-09-16-17-30-01-250x250.png',
@@ -1342,7 +1351,7 @@ export const allBlogPosts = [
     slug: 'memasang-spotify-melalui-flatpak-pada-opensuse-tumbleweed'
   },
   {
-    id: 148,
+    id: 149,
     title: 'Memasang Mendeley Desktop Pada openSUSE Leap 42.3',
     excerpt: 'Mendeley adalah perangkat lunak destop dan web yang dibuat oleh Elsevier untuk mengelola dan berbagi makalah penelitian, menemukan data penelitian dan berkolaborasi secara daring. Mendeley ini sangat berguna bagi mahasiswa yang sedang dalam penulisan ilmiah karena mempermudah dalam mengelola daft...',
     image: 'https://opensuse.id/wp-content/uploads/2017/09/VirtualBox_Leap-42.3_10_09_2017_13_39_07-250x250.png',
@@ -1351,7 +1360,7 @@ export const allBlogPosts = [
     slug: 'memasang-mendeley-desktop-pada-opensuse-leap-42-3'
   },
   {
-    id: 149,
+    id: 150,
     title: 'Solusi Grub Tidak Muncul saat Dual Boot dengan Windows 10',
     excerpt: 'Setelah memasang openSUSE Tumbleweed dengan skeman dual boot dengan Microsoft Windows 10, ada kemungkinan boot loader yang muncul masih menggunakan bawaan dari Windows 10. Sebelumnya, tulisan ini tidak akan membahas bagaimana cara untuk memasang openSUSE dual boot dengan Windows 10, tetapi hanya ...',
     image: 'https://opensuse.id/wp-content/uploads/2017/08/grub-opensuse-windows10-250x250.jpg',
@@ -1360,7 +1369,7 @@ export const allBlogPosts = [
     slug: 'solusi-grub-tidak-muncul-saat-dual-boot-dengan-windows-10'
   },
   {
-    id: 150,
+    id: 151,
     title: 'Memasang LibreOffice 5.4 Menggunakan Flatpak Pada openSUSE Leap 42.3',
     excerpt: 'Langkah pertama adalah memasang Flatpak pada openSUSE $ sudo zypper install flatpak Berikutnya adalah menambahkan repositori Flatpak yang mengandung runtime GNOME $ wget https://sdk.gnome.org/keys/gnome-sdk.gpg $ flatpak remote-add –user –gpg-import=gnome-sdk.gpg gnome https://sdk.gnome.org/repo/...',
     image: 'https://opensuse.id/wp-content/uploads/2017/08/flatpak-250x250.png',
@@ -1369,7 +1378,7 @@ export const allBlogPosts = [
     slug: 'memasang-libreoffice-5-4-menggunakan-flatpak-pada-opensuse-leap-42-3'
   },
   {
-    id: 151,
+    id: 152,
     title: 'Memasang LibreOffice 5.4 Menggunakan AppImage Pada openSUSE Leap 42.3',
     excerpt: 'Apa itu AppImage? Silakan Anda baca sendiri pada tautan ini. Singkatnya, Anda dapat memasang aplikasi hanya dengan cara mengunduhnya, lalu membuatnya dapat dieksekusi, lalu menjalankannya. Unduh LibreOffice 5.4 AppImage disini. Klik kanan, pilih Properti Klik tab Hak Akses Beri tanda centang pada...',
     image: 'https://opensuse.id/wp-content/uploads/2017/08/VirtualBox_Leap-42.3_01_08_2017_12_58_44-250x250.png',
@@ -1378,7 +1387,7 @@ export const allBlogPosts = [
     slug: 'memasang-libreoffice-5-4-menggunakan-appimage-pada-opensuse-leap-42-3'
   },
   {
-    id: 152,
+    id: 153,
     title: 'Kontrol Docker Image Secara Mudah dengan Portus! : Bagian 1',
     excerpt: 'Pembuka Saat merencanakan untuk pesta rilis openSUSE 42.2 Desember tahun lalu, saya sendiri kebingungan untuk mencari materi yang cocok apa. Akhirnya daripada menghabiskan waktu saya disuruh membawakan materi untuk fitur terbaru yang ada di openSUSE 42.2. Namun karena saya sendiri lebih ke teknis...',
     image: 'https://opensuse.id/wp-content/uploads/2017/07/portus-250x250.jpg',
@@ -1387,7 +1396,7 @@ export const allBlogPosts = [
     slug: 'kontrol-docker-image-secara-mudah-dengan-portus-bagian-1'
   },
   {
-    id: 153,
+    id: 154,
     title: 'Mau Jadi Pembicara di openSUSE Asia Summit 2017 Tokyo? Sekarang Saatnya!',
     excerpt: 'Douglas DeMaio secara resmi telah mengumumkan openSUSE Asia Summit 2017 akan dilaksanakan di Tokyo pada tanggal 21 – 22 Oktober 2017 di laman resmi openSUSE. https://news.opensuse.org/2017/06/30/opensuse-asia-summit-2017-tokyo-japan/ Hari ini secara resmi juga panitia openSUSE Asia Summit 2017 te...',
     image: '',
@@ -1396,7 +1405,7 @@ export const allBlogPosts = [
     slug: 'mau-jadi-pembicara-di-opensuse-asia-summit-2017-tokyo-sekarang-saatnya'
   },
   {
-    id: 154,
+    id: 155,
     title: 'Memasang Zekr pada openSUSE Tumbleweed',
     excerpt: 'Zekr merupakan salah satu aplikasi Al Quran yang bebas dan terbuka. Sampai dengan panduan ini ditulis, sudah mencapai versi 1.1.0. Pada laman http://zekr.org/quran/en/quran-for-linux, pilih Red Hat RPM Package. Lalu ekstrak, misalnya /home/userAnda/zekr Pasang paket eclipse-swt dan libwebkitgtk-1...',
     image: 'https://opensuse.id/wp-content/uploads/2017/05/VirtualBox_Tumbleweed_25_05_2017_20_31_55-250x250.png',
@@ -1405,7 +1414,7 @@ export const allBlogPosts = [
     slug: 'memasang-zekr-pada-opensuse-tumbleweed'
   },
   {
-    id: 155,
+    id: 156,
     title: 'Memasang dan Menggunakan GNOME Builder pada openSUSE Tumbleweed',
     excerpt: 'Sebenarnya panduan ini mengacu pada tulisan berikut: https://csorianognome.wordpress.com/2017/04/07/the-new-contribution-workflow-for-gnome/. Hal pertama yang perlu dilakukan tentu saja memasang GNOME Builder. O, iya, pastikan Anda menggunakan destop GNOME. Proses pemasangannya kurang lebih seper...',
     image: 'https://opensuse.id/wp-content/uploads/2017/04/VirtualBox_Tumbleweed_16_04_2017_14_47_11-250x250.png',
@@ -1414,7 +1423,7 @@ export const allBlogPosts = [
     slug: 'memasang-dan-menggunakan-gnome-builder-pada-opensuse-tumbleweed'
   },
   {
-    id: 156,
+    id: 157,
     title: 'Memasang Ekstensi GNOME pada openSUSE Tumbleweed',
     excerpt: 'GNOME 3.24 baru saja dirilis. Salah satu fitur yang bisa dinikmati pada destop GNOME adalah Ekstensi GNOME (https://extensions.gnome.org/). Saya asumsikan pengguna disini menggunakan peramban Mozilla Firefox yang merupakan peramban bawaan pada openSUSE Tumbleweed. Buka halaman https://extensions....',
     image: 'https://opensuse.id/wp-content/uploads/2017/03/VirtualBox_Tumbleweed_29_03_2017_14_55_24-250x250.png',
@@ -1423,7 +1432,7 @@ export const allBlogPosts = [
     slug: 'memasang-ekstensi-gnome-pada-opensuse-tumbleweed'
   },
   {
-    id: 157,
+    id: 158,
     title: 'Repositori Lokal openSUSE Leap 42.2 Indonesia',
     excerpt: 'Pendahuluan Secara default, saat pertama kali memasang openSUSE Leap, repositori yang akan digunakan oleh openSUSE adalah repositori bawaan milik openSUSE yang berada pada download.opensuse.org. Lokasi repositori tersebut terdapat pada jaringan IX atau berada di luar Indonesia. Salah satu hambata...',
     image: '',
@@ -1432,7 +1441,7 @@ export const allBlogPosts = [
     slug: 'repositori-lokal-opensuse-leap-42-2-indonesia'
   },
   {
-    id: 158,
+    id: 159,
     title: 'Instalasi Redmine di openSUSE Leap 42.2',
     excerpt: 'Salah satu tools yang digunakan oleh openSUSE dalam proses pengembangan adalah Redmine. Bagi yang pernah melaporkan permasalahan seputar pengembangan openSUSE melalui https://progress.opensuse.org pasti mengetahuinya. Redmine adalah alat bantu manajemen proyek dan pelacak isu berbasis web (web-ba...',
     image: 'https://opensuse.id/wp-content/uploads/2017/01/200px-Redmine_logo.svg_.png',
@@ -1441,7 +1450,7 @@ export const allBlogPosts = [
     slug: 'instalasi-redmine-di-opensuse-leap-42-2'
   },
   {
-    id: 159,
+    id: 160,
     title: 'RANCID di OpenSUSE Leap 42.2 [part3: web-based] – SELESAI',
     excerpt: 'Inilah sesi terakhir dari materi seputar RANCID. Tahap ketiga ini akan membahas bagaimana me-manusia-kan RANCID agar sedap dipandang dan dikelola secara efisien. Berhubung semua konfigurasi telah kita buat sebelumnya, maka yang akan dilakukan selanjutnya adalah mengakses RANCID menggunakan WebSVN...',
     image: 'https://opensuse.id/wp-content/uploads/2017/02/rancidsvn-250x250.png',
@@ -1450,7 +1459,7 @@ export const allBlogPosts = [
     slug: 'rancid-di-opensuse-leap-42-2-part3-web-based'
   },
   {
-    id: 160,
+    id: 161,
     title: 'RANCID di OpenSUSE Leap 42.2 [part2: tambah perangkat]',
     excerpt: 'Oke, kali ini kita akan membahas tahap kedua dari bahasan pertama sebelumnya seputar pemasangan RANCID. Ada 2 perangkat untuk pengujian yang masuk lab yaitu Mikrotik dan Cisco Catalyst Switch, sedangkan RANCID akan berjalan di atas mesin OpenSUSE Leap 42.2. Perlu diketahui juga, cukup banyak tipe...',
     image: 'https://opensuse.id/wp-content/uploads/2017/02/topologi-250x229.png',
@@ -1459,7 +1468,7 @@ export const allBlogPosts = [
     slug: 'rancid-di-opensuse-leap-42-2-part2-tambah-perangkat'
   },
   {
-    id: 161,
+    id: 162,
     title: 'Upgrade KDE Plasma 5.9 pada openSUSE 42.2 Leap',
     excerpt: 'KDE Plasma 5.9 announcement: Pada tulisan ini saya ingin berbagi sedikit bagaimana caranya menambahkan KDE Plasma yang terbaru (dan seterusnya) pada openSUSE Leap atau reguler atau yang tidak bergilir. Dalam hal ini saya memakai zypper. 1. Tambashkan Repo KF5 # zypper ar -f http://download.opensu...',
     image: 'https://opensuse.id/wp-content/uploads/2017/02/11949942481641741323about_kde.svg_.hi_-250x250.png',
@@ -1468,7 +1477,7 @@ export const allBlogPosts = [
     slug: 'upgrade-kde-plasma-5-9-pada-opensuse-42-2-leap'
   },
   {
-    id: 162,
+    id: 163,
     title: 'RANCID di OpenSUSE Leap 42.2 [part1: pemasangan]',
     excerpt: 'RANCID, satu hal yang muncul di pikiran saya ketika mendengar kata ini adalah sebuah lantunan lagu berjudul “Radio Havana” yang dibawakan oleh grup punk legendaris dari Berkeley, California. Ketahuilah mereka dan lagunya itu sangat keren, tapi saat ini adalah lain hal yang akan kita bahas. RANCID...',
     image: 'https://opensuse.id/wp-content/uploads/2017/02/shrubbery.jpg',
@@ -1477,7 +1486,7 @@ export const allBlogPosts = [
     slug: 'rancid-di-opensuse-leap-42-2-part1-pemasangan'
   },
   {
-    id: 163,
+    id: 164,
     title: 'Memasang NodeJS pada openSUSE Tumbleweed',
     excerpt: 'Kali ini, kita akan mencoba memasang NodeJS pada openSUSE Tumbleweed. Sampai panduan ini ditulis, versi NodeJS versi 6 LTS terakhir di openSUSE Tumbleweed adalah 6.9.3, sedangkan di NodeJS telah menyediakan versi 6.9.4. Adakalanya kita ingin memasang versi yang lebih baru dari yang ada di repo. U...',
     image: 'https://opensuse.id/wp-content/uploads/2017/01/nodejs-new-pantone-black-250x250.png',
@@ -1486,7 +1495,7 @@ export const allBlogPosts = [
     slug: 'memasang-nodejs-pada-opensuse-tumbleweed'
   },
   {
-    id: 164,
+    id: 165,
     title: 'Memasang Google Fonts pada openSUSE Tumbleweed',
     excerpt: 'Ingin memasang Google Fonts (https://fonts.google.com) pada komputer Anda? Caranya cukup mudah. Pastikan komputer Anda terhubung dengan internet untuk mengikuti panduan ini. Buat folder /usr/local/share/fonts/ dengan perintah sudo mkdir /usr/local/share/fonts/ Jalankan perintah curl https://raw.g...',
     image: 'https://opensuse.id/wp-content/uploads/2017/01/splash-250x250.png',
@@ -1495,7 +1504,7 @@ export const allBlogPosts = [
     slug: 'memasang-google-fonts-pada-opensuse-tumbleweed'
   },
   {
-    id: 165,
+    id: 166,
     title: 'Instalasi Omnibus Gitlab pada openSUSE Leap 42.2',
     excerpt: 'Gitlab Community Edition (Gitlab CE) adalah salah satu tool open source untuk git repository hosting, code review, issue tracking, dan continous integration yang dapat kita pasang/install pada server kita sendiri secara bebas. Sebenarnya sudah ada pemaketan Gitlab pada OBS di openSUSE tetapi cara...',
     image: 'https://opensuse.id/wp-content/uploads/2016/08/gitlab-logo-square-250x250.png',
@@ -1504,7 +1513,7 @@ export const allBlogPosts = [
     slug: 'instalasi-omnibus-gitlab-pada-opensuse-leap-42-2'
   },
   {
-    id: 166,
+    id: 167,
     title: 'Instalasi Spotify Pada openSUSE Leap 42.2',
     excerpt: 'Spotify adalah layanan streaming musik, podcast, dan video yang diluncurkan oleh perusahaan dari Swedia, Spotify Technology S.A. Spotify menyediakan konten yg dilindungi Digital Rights Management (DRM) dari label rekaman dan perusahaan media. Konten ini tersedia di sebagian besar Eropa, Amerika, ...',
     image: 'https://opensuse.id/wp-content/uploads/2016/11/CUJWxhIUAAAbryM-250x250.png',
@@ -1513,7 +1522,7 @@ export const allBlogPosts = [
     slug: 'instalasi-spotify-pada-opensuse-leap-42-2'
   },
   {
-    id: 167,
+    id: 168,
     title: 'Instalasi Bumblebee Untuk NVIDIA Optimus Pada openSUSE Leap 42.2',
     excerpt: 'NVIDIA Optimus adalah sebuah fitur pada laptop yang memungkinkan sistem untuk mengatur sistem agar dapat menggunakan kartu grafis terintegrasi (Intel) dan menggantinya menjadi NVIDIA secara otomatis. Nah, bagaimana caranya install paket-paket tersebut pada openSUSE terbaru, Leap 42.2 yang baru di...',
     image: '',
@@ -1522,7 +1531,7 @@ export const allBlogPosts = [
     slug: 'instalasi-bumblebee-untuk-nvidia-optimus-pada-opensuse-leap-42-2'
   },
   {
-    id: 168,
+    id: 169,
     title: 'Hal yang Dilakukan Setelah Memasang openSUSE Leap 42.2',
     excerpt: 'SUSE Linux Enterprise Server (SLES) SP2 telah dirilis pada tanggal 4 November 2016. Kini giliran openSUSE Leap 42.2 diliris secara resmi pada tanggal 16 November kemarin. Selang 1 tahun sebelumnya openSUSE telah merilis openSUSE Leap 42.1 dengan berdasarkan paket perangkat lunak stabil milik SLES...',
     image: 'https://opensuse.id/wp-content/uploads/2016/11/Screenshot_20161117_205832-250x250.png',
@@ -1531,7 +1540,7 @@ export const allBlogPosts = [
     slug: 'hal-yang-dilakukan-setelah-memasang-opensuse-leap-42-2'
   },
   {
-    id: 169,
+    id: 170,
     title: 'Memasang Vagrant pada openSUSE Leap',
     excerpt: 'Ikhtisar Sewaktu openSUSE Asia Summit 2016 bulan kemarin, disalah satu workshop, yaitu workshopnya pak Estu Fardani dengan materi Elastic Logtash dan Kibana pada openSUSE menjadi salah satu workshop yang menarik bagi saya. Di workshop tersebut untuk melakukan simulasi ELK nya pak Estu menggunakan...',
     image: 'https://opensuse.id/wp-content/uploads/2016/11/logo_large-c92469b9-250x250.png',
@@ -1540,7 +1549,7 @@ export const allBlogPosts = [
     slug: 'memasang-vagrant-pada-opensuse-leap'
   },
   {
-    id: 170,
+    id: 171,
     title: 'Membuat Live USB openSUSE',
     excerpt: 'Selama pelaksanaan openSUSE.Asia Summit 2016 sekitar 500 openSUSE Promo DVD dibagikan kepada setiap peserta. Selain itu bagi yang beruntung juga mendapatkan USB disk 8GB di booth openSUSE. Mohon maaf kami tidak bisa memberikan USB disk kepada setiap peserta karena jumlahnya terbatas hanya sekitar...',
     image: 'https://opensuse.id/wp-content/uploads/2016/10/IMG_20161011_195725505-1-250x250.jpg',
@@ -1549,7 +1558,7 @@ export const allBlogPosts = [
     slug: 'membuat-live-usb-opensuse'
   },
   {
-    id: 171,
+    id: 172,
     title: 'openSUSE.Asia Summit 2016: Terima Kasih Semuanya, Kalian Keren',
     excerpt: 'Rangkaian acara keren openSUSE.Asia Summit 2016 telah usai, workshop pra-konferensi Jumat, 30 September 2016, konferensi utama pada hari Sabtu-Minggu, 1-2 Oktober 2016 Convention Hall UIN Sunan Kalijaga Yogyakarta. Menghadirkan sebanyak 38 pembicara dari dalam negeri dan dari luar negeri yaiu Chi...',
     image: 'https://opensuse.id/wp-content/uploads/2016/10/d1-oSAS16-250x250.jpg',
@@ -1558,7 +1567,7 @@ export const allBlogPosts = [
     slug: 'opensuse-asia-summit-2016-terima-kasih-semuanya-kalian-keren'
   },
   {
-    id: 172,
+    id: 173,
     title: 'Bagaimana Mencapai UIN Sunan Kalijaga untuk menghadiri openSUSE.Asia Summit 2016',
     excerpt: 'Untuk peserta openSUSE.Asia Summit 2016 yang berasal dari luar kota Yogyakarta mungkin bertanya-tanya bagaimana mencapai UIN Sunan Kalijaga? Panitia menyempatkan untuk membuat 2 buah video untuk membantu anda memberikan gambaran bagaimana mencapai lokasi openSUSE.Asia Summit 2016. Memang ini belu...',
     image: 'https://opensuse.id/wp-content/uploads/2016/08/candi-prambanan-osas2106-250x250.jpg',
@@ -1567,7 +1576,7 @@ export const allBlogPosts = [
     slug: 'bagaimana-mencapai-uin-sunan-kalijaga-untuk-menghadiri-opensuse-asia-summit-2016'
   },
   {
-    id: 173,
+    id: 174,
     title: 'Pengumuman Peserta Workshop openSUSE.Asia Summit 2016',
     excerpt: 'Daftar peserta workshop openSUSE.Asia Summit 2016. No No. Tiket Nama 1 538571424 Darian Rizaludin 2 541431928 Candra Milad Ridha Eislam 3 542640850 Ghozi Fawwaz Atstsaqofi 4 539639702 Aris Supriyanto 5 541146396 Andri Muhyidin 6 542850038 Ibnu Islamy Harahap 7 540169607 Niko HS 8 542889810 Danang...',
     image: 'https://opensuse.id/wp-content/uploads/2016/09/utian-workshop-250x250.jpg',
@@ -1576,7 +1585,7 @@ export const allBlogPosts = [
     slug: 'pengumuman-peserta-workshop-opensuse-asia-summit-2016'
   },
   {
-    id: 174,
+    id: 175,
     title: 'Pendaftaran Workshop openSUSE.Asia Summit 2016',
     excerpt: 'Workshop openSUSE Asia Summit 2016 adalah kelas praktek minilab untuk beberapa materi dengan tingkat kesulitan medium. Workshop akan diselenggarakan sehari sebelum acara konferensi secara resmi dibuka. Materi dan Pembicara Integrating openSUSE Ceph Block Device and OpenStack oleh Utian Ayuba open...',
     image: 'https://opensuse.id/wp-content/uploads/2016/08/workshop-tw-250x250.jpg',
@@ -1585,7 +1594,7 @@ export const allBlogPosts = [
     slug: 'pendaftaran-workshop-opensuse-asia-summit-2016'
   },
   {
-    id: 175,
+    id: 176,
     title: 'Pengumuman Pemenang Kontes Logo openSUSE Asia Summit 2016',
     excerpt: 'Setelah melalui proses pengambilan suara, panitia Kontes Logo openSUSE Asia Summit 2016, dengan ini mengucapkan selamat kepada Saudara Ramadoni Ashudi, yang karyanya terpilih sebagai pemenang pertama kontes logo ini. Ramadoni Ashudi menyerahkan dua desain, dan desain yang kedua yang menggambarkan...',
     image: 'https://opensuse.id/wp-content/uploads/2016/08/logo-green-250x250.png',
@@ -1594,7 +1603,7 @@ export const allBlogPosts = [
     slug: 'pengumuman-pemenang-kontes-logo-opensuse-asia-summit-2016'
   },
   {
-    id: 176,
+    id: 177,
     title: 'Informasi Pendaftaran openSUSE.Asia Summit 2016',
     excerpt: 'Sebuah event keren sebagai sarana bertemunya kontributor openSUSE, pengguna openSUSE, penggiat opensource se-Indonesia dan tingkat Asia akan digelar di Yogyakarta. Event bertajuk openSUSE.Asia Summit 2016 akan diselenggarakan 1-2 Oktober 2016 di Convention Hall UIN Sunan Kalijaga, Jl. Laksda Adis...',
     image: 'https://opensuse.id/wp-content/uploads/2016/08/registrasi-2-1-1-250x250.png',
@@ -1603,7 +1612,7 @@ export const allBlogPosts = [
     slug: 'informasi-pendaftaran-opensuse-asia-summit-2016'
   },
   {
-    id: 177,
+    id: 178,
     title: 'Mau jadi pembicara di openSUSE.Asia Summit 2016? Sekarang saatnya!',
     excerpt: 'Panitia openSUSE.Asia Summit 2016 membuka kesempatan bagi siapa saja yang ingin menjadi pembicara atau membuat workshop pada openSUSE.Asia Summit 2016 di UIN Sunan Kalijaga, Yogyakarta 30 Sept – 2 Okt 2016. Call For Paper ini dibuka mulai tanggal 22 Juni 2016 sampai dengan 3 Agustus 2016. Materi ...',
     image: 'https://opensuse.id/wp-content/uploads/2016/06/CFP-AsiaSummit2016-1-250x250.png',
@@ -1612,7 +1621,7 @@ export const allBlogPosts = [
     slug: 'mau-jadi-pembicara-di-opensuse-asia-summit-2016-sekarang-saatnya'
   },
   {
-    id: 178,
+    id: 179,
     title: 'openSUSE.Asia Summit 2016 di UIN Sunan Kalijaga Yogyakarta, 30 Sept – 2 Okt 2016',
     excerpt: 'Manu Gupta telah mengumumkan melalui openSUSE News pada 6 Juni 2016 lalu bahwa Yogyakarta telah terpilih sebagai tuan rumah openSUSE.Asia Summit 2016. Proses untuk menjadi tuan rumah openSUSE. Asia Summit 2016 ini sebenarnya cukup panjang, mulai dari bincang-bincang dengan sesama anggota komite o...',
     image: 'https://opensuse.id/wp-content/uploads/2016/06/oSAsiaSummit2016-art1-250x250.png',
@@ -1621,7 +1630,7 @@ export const allBlogPosts = [
     slug: 'opensuse-asia-summit-2016-di-uin-sunan-kalijaga-yogyakarta-30-sept-2-okt-2016'
   },
   {
-    id: 179,
+    id: 180,
     title: 'Migrasi dari openSUSE Leap ke Tumbleweed',
     excerpt: 'openSUSE memliki 2 versi, Leap versi stabil dan Tumbleweed versi rilis bergulir. Apabila sebelumnya sudah memasang openSUSE Leap dan hendak mencoba pengalaman baru atau mungkin tertarik setelah membaca tulisan Richard Brown tentang Tumbleweed, berikut ini langkah-langkah migrasi dari Leap ke Tumb...',
     image: 'https://opensuse.id/wp-content/uploads/2016/04/openSUSE-Tumbleweed-screenfetch-250x250.png',
@@ -1630,7 +1639,7 @@ export const allBlogPosts = [
     slug: 'migrasi-dari-opensuse-leap-ke-tumbleweed'
   },
   {
-    id: 180,
+    id: 181,
     title: 'Laporan Pandangan Mata Cangkru’an KLAS OpenStack Administration',
     excerpt: 'Kelompok Linux Arek Suroboyo atau yang dikenal dengan KLAS mengadakan acara rutin Cangkru’an yang mengangkat tema OpenStack Administration, Sabtu 2 April 2016, di Mezzanine Intiland Tower Surabaya,  dengan pembicara Utian Ayuba, CEO Btech dan juga salah satu penggiat Komunitas openSUSE Indonesia....',
     image: 'https://opensuse.id/wp-content/uploads/2016/04/utian-cangkrukan-openstack-250x250.jpg',
@@ -1639,7 +1648,7 @@ export const allBlogPosts = [
     slug: 'laporan-pandangan-mata-cangkruan-klas-openstack-administration'
   },
   {
-    id: 181,
+    id: 182,
     title: 'Wajah openSUSE-id: Adnan Adhy Kurniawan',
     excerpt: 'Nickname: adnan Pekerjaan: PNS di Kementerian Hukum dan HAM RI Tempat Tinggal: Cilacap Hobi: Apa saja yang penting aneh dan ndak umum Motto: Hidup sudah susah, jangan dibikin susah * * * Perkenalkan diri anda Hi, nama saya Adnan, saya adalah seorang PNS di Kementerian Hukum dan HAM RI dan salah s...',
     image: 'https://opensuse.id/wp-content/uploads/2016/03/Adnan-AK-250x250.jpg',
@@ -1648,7 +1657,7 @@ export const allBlogPosts = [
     slug: 'wajah-opensuse-id-adnan-adhy-kurniawan'
   },
   {
-    id: 182,
+    id: 183,
     title: 'Sepatu openSUSE Keren',
     excerpt: 'Halo kawan-kawan. Saya ada berencana untuk mengkoordinasi pemesanan preorder sepatu openSUSE (Tahap Satu). Target pesanan sebanyak 24 pasang(minimal), harga 250rbu+ongkir JNE Bogor-Lokasi masing-masing. Harga 250ribu sudah termasuk donasi untuk komunitas openSUSE Indonesia. Hasil donasi akan diru...',
     image: 'https://opensuse.id/wp-content/uploads/2016/03/sepatu_ijo-250x250.jpg',
@@ -1657,7 +1666,7 @@ export const allBlogPosts = [
     slug: 'sepatu-opensuse-keren'
   },
   {
-    id: 183,
+    id: 184,
     title: 'Cangkrukan KLAS: Melompat dengan openSUSE',
     excerpt: 'Kelompok Linux Arek Suroboyo (KLAS) menyelenggarakan Cangkrukan KLAS dengan narasumber Cak didiet yang akan membahas mengenai openSUSE yang baru merilis distribusi terbaru kemarin dengan kode rilis LEAP 42.1. Ada juga Cak Kukuh yang akan bercerita tentang bagaimana rasanya desain logo karyanya di...',
     image: 'https://opensuse.id/wp-content/uploads/2016/02/leap-wallpapper-250x250.jpg',
@@ -1666,7 +1675,7 @@ export const allBlogPosts = [
     slug: 'cangkrukan-klas-melompat-dengan-opensuse'
   },
   {
-    id: 184,
+    id: 185,
     title: 'openSUSE.Asia Summit 2015',
     excerpt: 'Rombongan openSUSE.ID mengikuti openSUSE Asia Summit 2015 di National Taipei University of Education, Taiwan, tanggal 4-6 Desember 2015.',
     image: 'https://opensuse.id/wp-content/uploads/2016/03/oS-Asia-2015-250x250.jpg',
@@ -1675,7 +1684,7 @@ export const allBlogPosts = [
     slug: 'opensuse-asia-summit-2015'
   },
   {
-    id: 185,
+    id: 186,
     title: 'openSUSE Leap 42.1 Release Party Jabodetabek',
     excerpt: 'openSUSE Leap 42.1 Release Party Jabodetabek diselenggarakan Sabtu, 14 November 2015 pukul 09:00 – 12:00 WIB bertempat di Code Margonda, https://goo.gl/lDsPGj.',
     image: 'https://opensuse.id/wp-content/uploads/2016/03/rp-leap-jakarta-250x250.jpg',
@@ -1684,7 +1693,7 @@ export const allBlogPosts = [
     slug: 'opensuse-leap-42-1-release-party-jabodetabek'
   },
   {
-    id: 186,
+    id: 187,
     title: 'openSUSE.ID di Gnome Asia Summit 2015',
     excerpt: 'Komunitas Pengguna openSUSE Indonesia (openSUSE.id)  turut memeriahkan Gnome Asia Summit 2015 yang diselengarakan di Balairung Universitas Indonesia, Depok, pada tanggal 7-9 Mei 2015. Kegiatan ini diselenggarakan oleh Komunitas GNU/Linux Bogor (GliB) bekerjasama dengan Fakultas Ilmu Komputer Univ...',
     image: 'https://opensuse.id/wp-content/uploads/2016/02/IMG_20150509_103234-250x250.jpg',
