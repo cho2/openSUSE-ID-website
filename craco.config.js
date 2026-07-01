@@ -1,6 +1,7 @@
 // craco.config.js
 const path = require("path");
 require("dotenv").config();
+const Mode = require("frontmatter-markdown-loader/mode");
 
 // Environment variable overrides
 const config = {
@@ -35,6 +36,29 @@ const webpackConfig = {
       '@': path.resolve(__dirname, 'src'),
     },
     configure: (webpackConfig) => {
+
+      // Load Markdown blog posts (`src/content/blog/*.md`) as importable modules.
+      // Inserted at the front of CRA's `oneOf` so it wins before the asset fallback.
+      const mdRule = {
+        test: /\.md$/,
+        use: [
+          {
+            loader: require.resolve("frontmatter-markdown-loader"),
+            options: {
+              mode: [Mode.HTML],
+              markdownIt: { html: true, linkify: true },
+            },
+          },
+        ],
+      };
+      const oneOfRule = webpackConfig.module.rules.find((rule) =>
+        Array.isArray(rule.oneOf)
+      );
+      if (oneOfRule) {
+        oneOfRule.oneOf.unshift(mdRule);
+      } else {
+        webpackConfig.module.rules.push(mdRule);
+      }
 
       // Disable hot reload completely if environment variable is set
       if (config.disableHotReload) {

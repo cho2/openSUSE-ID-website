@@ -101,11 +101,17 @@ const Layout = ({ children }) => {
                   >
                     Kegiatan
                   </Link>
-                  <Link 
-                    to="/blog?category=wajah-opensuse-id" 
-                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 transition-colors rounded-b-xl"
+                  <Link
+                    to="/blog?category=wajah-opensuse-id"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 transition-colors"
                   >
                     Wajah openSUSE.ID
+                  </Link>
+                  <Link
+                    to="/tulis-artikel"
+                    className="block px-4 py-3 font-semibold text-[#5ea01d] hover:bg-gray-50 transition-colors rounded-b-xl border-t border-gray-100"
+                  >
+                    ✍️ Tulis Artikel
                   </Link>
                 </div>
               </div>
@@ -185,12 +191,19 @@ const Layout = ({ children }) => {
               >
                 Tentang Kami
               </Link>
-              <Link 
-                to="/blog" 
+              <Link
+                to="/blog"
                 className="block px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
+              </Link>
+              <Link
+                to="/tulis-artikel"
+                className="block px-4 py-3 font-semibold text-[#5ea01d] hover:bg-gray-50 rounded-lg transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                ✍️ Tulis Artikel
               </Link>
               <div className="border-t border-gray-200 my-2"></div>
               <p className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase">Konferensi</p>
