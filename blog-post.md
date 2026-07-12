@@ -156,7 +156,7 @@ Gambar tidak ditempel langsung ke file, melainkan dimasukkan lewat **alamat gamb
 
 Cocok untuk yang tidak punya tempat mengunggah gambar:
 
-1. Buka **Issues → New issue** di repositori (atau kotak komentar mana pun di GitHub).
+1. Buka **Issues → New issue** di repositori (atau kotak komentar mana pun di GitHub) atau unggah [disini](https://github.com/opensuse-id/openSUSE-ID-website/issues/17).
 2. **Seret & jatuhkan** file gambar Anda ke kotak teks, lalu tunggu unggahan selesai.
 3. GitHub otomatis menyisipkan tautan seperti
    `https://github.com/user-attachments/assets/...` — **salin** URL tersebut.
