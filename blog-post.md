@@ -1,132 +1,207 @@
-# ✍️ Menambahkan Blog Post
+# ✍️ Menulis Artikel Blog
 
-Blog di situs web ini menggunakan data statis (tidak ada CMS). Untuk menambahkan artikel baru, Anda perlu menyunting **dua berkas** secara bersamaan.
+Panduan ini menulis artikel lewat **IDE dan terminal (git)** — Anda bisa menguji
+artikel di komputer sendiri sebelum mengirim Pull Request.
 
-## Berkas yang Perlu Diedit
-
-| Berkas | Fungsi |
-|---|---|
-| `src/data/blogPosts.js` | Metadata artikel (judul, ringkasan, gambar, kategori, tanggal) |
-| `src/pages/BlogPost.jsx` | Konten penuh artikel dalam format HTML |
+Setiap artikel = **satu file** `.md` di dalam folder [`src/content/blog/`](src/content/blog/).
+Anda cukup membuat satu file baru, mengisinya, lalu mengirim Pull Request. Alamat
+artikel, urutan, dan tampilannya diatur otomatis.
 
 ---
 
-## Langkah 1: Tambahkan Metadata di `src/data/blogPosts.js`
+## ✅ Persyaratan Artikel
 
-Tambahkan objek baru di **bagian paling atas** array `allBlogPosts` agar artikel terbaru tampil pertama:
+Blog ini adalah ruang komunitas openSUSE Indonesia. Ketentuan utama:
 
-```js
-export const allBlogPosts = [
-  // ✅ Tambahkan artikel baru di sini (paling atas)
-  {
-    id: 190,                               // ID unik, lanjutkan dari ID terakhir
-    title: 'Judul Artikel Anda',          
-    excerpt: 'Ringkasan singkat artikel, sekitar 1-2 kalimat yang menarik pembaca.',
-    image: 'https://opensuse.id/wp-content/uploads/TAHUN/BULAN/nama-gambar.png',
-    category: 'panduan',                   // lihat kategori yang tersedia di bawah
-    date: '5 Juni 2025',
-    slug: 'judul-artikel-anda'             // URL-friendly: huruf kecil, gunakan tanda -
-  },
+> **Isi artikel harus berkaitan dengan openSUSE dan/atau open source** — misalnya
+> Linux, perangkat lunak bebas (FLOSS), dan kegiatan komunitas.
 
-  // Artikel lama di bawah ini...
-  {
-    id: 188,
-    title: 'Kompetisi Logo openSUSE.Asia Summit 2026 Dibuka',
-    // ...
-  },
+**Boleh ditulis:**
+
+- Tutorial & panduan seputar openSUSE (Leap, Tumbleweed, YaST, zypper, dll.)
+- Pengalaman, tips, atau ulasan memakai openSUSE dan perangkat lunak open source
+- Kegiatan komunitas: meetup, konferensi, workshop, rilis
+- Berita & perkembangan dunia open source / FLOSS dan Linux
+- Profil dan cerita anggota komunitas (Wajah openSUSE.ID)
+
+**Tidak diperbolehkan:**
+
+- Topik yang tidak berkaitan dengan openSUSE maupun open source
+- Iklan/promosi produk atau jasa komersial yang tidak relevan, dan spam
+- Konten hasil menyalin (plagiat) tanpa izin atau tanpa mencantumkan sumber
+- Ujaran kebencian, SARA, politik praktis, atau melanggar [Kode Etik](https://opensuse.id/kode-etik)
+
+Tulisan sebaiknya orisinal. Jika mengutip sumber lain, cantumkan tautannya.
+
+---
+
+## 🚀 Langkah Menulis (IDE + Terminal)
+
+**Yang perlu disiapkan:** Node.js 18+, Yarn, Git, dan sebuah editor/IDE (mis. VS Code).
+
+```bash
+# 1. Fork repo di GitHub, lalu clone hasil fork Anda
+git clone https://github.com/USERNAME-ANDA/openSUSE-ID-website.git
+cd openSUSE-ID-website
+
+# 2. Pasang dependensi (cukup sekali di awal)
+yarn install
+
+# 3. Buat branch baru
+git checkout -b artikel-cara-instal-leap
+
+# 4. Buat file artikel baru di src/content/blog/
+#    Nama file: huruf kecil, tanda minus, akhiri .md — ini jadi alamat artikel.
+#    Cara cepat: salin dari _TEMPLATE.md sebagai kerangka.
+cp src/content/blog/_TEMPLATE.md src/content/blog/cara-instal-opensuse-leap.md
 ```
+
+5. **Buka file itu di IDE**, isi metadata (`title`, `date`, dst.) lalu tulis isi
+   artikel dengan Markdown. Lihat [Bagian-Bagian Artikel](#-bagian-bagian-artikel) di bawah.
+
+```bash
+# 6. Lihat hasilnya di lokal (halaman auto-refresh setiap Anda menyimpan file)
+yarn start
+#    buka http://localhost:8080/blog
+#    dan  http://localhost:8080/blog/cara-instal-opensuse-leap
+#    tekan Ctrl + C untuk berhenti
+
+# 7. Commit & push ke fork Anda
+git add src/content/blog/cara-instal-opensuse-leap.md
+git commit -m "blog: tambah artikel cara instal openSUSE Leap"
+git push origin artikel-cara-instal-leap
+```
+
+8. Buka fork Anda di GitHub, klik **Compare & pull request**, arahkan ke `main`
+   repositori utama, lalu **Create pull request**. Selesai! 🎉
+
+Pengurus akan meninjau, dan setelah di-*merge* ke `main`, artikel otomatis tayang
+di [opensuse.id/blog](https://opensuse.id/blog).
+
+---
+
+## 🧩 Bagian-Bagian Artikel
+
+Setiap file `.md` punya dua bagian:
+
+### 1. Metadata (di antara dua garis `---`)
+
+```yaml
+---
+title: "Cara Instal openSUSE Leap"
+date: "2026-07-01"
+author: "Nama Anda"
+category: panduan
+excerpt: "Panduan langkah demi langkah memasang openSUSE Leap untuk pemula."
+image: "https://opensuse.id/wp-content/uploads/2026/07/leap.png"
+---
+```
+
+| Field | Wajib | Keterangan |
+|---|---|---|
+| `title` | ✅ | Judul artikel (pakai tanda kutip `"`) |
+| `date` | ✅ | Tanggal terbit, format `TAHUN-BULAN-TANGGAL`, contoh `"2026-07-01"` |
+| `author` | ✅ | Nama penulis |
+| `category` | ✅ | Pilih **satu** (lihat tabel di bawah) |
+| `excerpt` | ✅ | Ringkasan 1–2 kalimat, tampil di kartu daftar artikel |
+| `image` | ➖ | Alamat gambar sampul. Boleh dikosongkan: `""` |
 
 **Kategori yang tersedia:**
 
-| Nilai | Tampilan di UI | Keterangan |
-|---|---|---|
-| `panduan` | Panduan | Tutorial dan panduan teknis |
-| `kegiatan` | Kegiatan | Event, meetup, konferensi |
-| `komunitas` | Komunitas | Berita dan pengumuman komunitas |
-| `wajah-opensuse-id` | Wajah openSUSE.ID | Profil anggota komunitas |
-| `uncategorized` | Lainnya | Artikel umum |
-
-> **Catatan:**
-> - Field `image` boleh dikosongkan (`''`) jika tidak ada gambar.
-> - Nilai `category` selalu ditulis **huruf kecil** di `blogPosts.js`. Konversi ke tampilan UI (huruf kapital) ditangani otomatis oleh `getCategoryLabel()` di `src/lib/categoryUtils.js`.
-
----
-
-## Langkah 2: Tambahkan Konten di `src/pages/BlogPost.jsx`
-
-Tambahkan entri baru ke dalam objek `blogContents` menggunakan **slug yang sama persis** dengan yang ada di `blogPosts.js`. Cukup isi field `author` dan `content` saja — `title`, `image`, `date`, dan `category` diambil otomatis dari `blogPosts.js`:
-
-```js
-const blogContents = {
-  // ✅ Tambahkan konten artikel baru di sini
-  'judul-artikel-anda': {                  // ← slug harus identik dengan blogPosts.js
-    author: 'Nama Anda',
-    content: `
-      <p>Paragraf pembuka artikel Anda di sini...</p>
-
-      <h3>Sub Judul Pertama</h3>
-      <p>Isi konten sub bagian pertama.</p>
-
-      <h3>Langkah-langkah</h3>
-      <ul>
-        <li>Langkah pertama</li>
-        <li>Langkah kedua</li>
-        <li>Langkah ketiga</li>
-      </ul>
-
-      <h3>Contoh Perintah</h3>
-      <pre><code>sudo zypper install nama-paket</code></pre>
-
-      <p>Penutup artikel. Have fun!</p>
-    `,
-  },
-
-  // Artikel lama di bawah ini...
-  'kompetisi-logo-opensuse-asia-summit-2026-dibuka': {
-    // ...
-  },
-```
-
-**Tag HTML yang didukung dalam `content`:**
-
-| Tag | Kegunaan |
+| Tulis di `category` | Tampil di situs |
 |---|---|
-| `<p>` | Paragraf |
-| `<h3>`, `<h4>` | Sub judul |
-| `<ul>`, `<ol>`, `<li>` | Daftar |
-| `<strong>`, `<em>` | Teks tebal / miring |
-| `<pre><code>` | Blok kode/perintah terminal |
-| `<a href="...">` | Tautan |
-| `<img src="...">` | Gambar di dalam konten |
+| `panduan` | Panduan |
+| `kegiatan` | Kegiatan |
+| `komunitas` | Komunitas |
+| `wajah-opensuse-id` | Wajah openSUSE.ID |
+| `uncategorized` | Lainnya |
 
-> **Catatan:** Jangan tambahkan field `title`, `image`, `date`, atau `category` di sini. Semua metadata tersebut sudah ada di `blogPosts.js` dan akan diambil otomatis.
+### 2. Isi Artikel (di bawah metadata, format Markdown)
 
----
+Markdown itu teks biasa dengan sedikit tanda. Contoh lengkap:
 
-## Langkah 3: Verifikasi dan Kirim Pull Request
+```markdown
+Paragraf biasa. Satu baris kosong memisahkan antar-paragraf.
 
-```bash
-# 1. Jalankan development server untuk memastikan artikel tampil dengan benar
-yarn start
+## Sub-Judul
 
-# 2. Buka browser dan cek artikel baru di:
-#    http://localhost:8080/blog
-#    http://localhost:8080/blog/judul-artikel-anda
+Teks **tebal**, teks *miring*, dan [tautan](https://opensuse.id).
 
-# 3. Jika sudah benar, commit perubahan
-git add src/data/blogPosts.js src/pages/BlogPost.jsx
-git commit -m "blog: tambah artikel judul-artikel-anda"
-git push origin nama-branch-anda
+- Poin satu
+- Poin dua
+
+1. Langkah satu
+2. Langkah dua
+
+​```
+sudo zypper install nama-paket
+​```
+
+> Kutipan atau catatan penting.
+
+![Keterangan gambar](https://opensuse.id/wp-content/uploads/2026/07/contoh.png)
 ```
 
-Kemudian buat **Pull Request** ke repository `opensuse-id/openSUSE-ID-website`.
+---
+
+## 🖼️ Menambahkan Gambar
+
+Gambar tidak ditempel langsung ke file, melainkan dimasukkan lewat **alamat gambar (URL)**
+— tautan yang biasanya diakhiri `.jpg` atau `.png`. Gambar bisa dipakai di dua tempat:
+
+- **Gambar sampul** → tempel URL-nya di field `image` pada metadata.
+- **Gambar di dalam tulisan** → tulis `![keterangan](URL)` di posisi yang diinginkan.
+
+### Cara termudah mendapatkan URL gambar (lewat GitHub)
+
+Cocok untuk yang tidak punya tempat mengunggah gambar:
+
+1. Buka **Issues → New issue** di repositori (atau kotak komentar mana pun di GitHub).
+2. **Seret & jatuhkan** file gambar Anda ke kotak teks, lalu tunggu unggahan selesai.
+3. GitHub otomatis menyisipkan tautan seperti
+   `https://github.com/user-attachments/assets/...` — **salin** URL tersebut.
+4. Tempel URL itu ke `image` atau ke `![...](URL)`.
+   **Tidak perlu benar-benar mengirim** Issue-nya, cukup ambil URL-nya.
+
+### Alternatif
+
+- Pakai gambar yang **sudah ada di internet**: klik kanan gambar → *Salin Alamat Gambar*,
+  lalu tempel URL-nya (pastikan Anda berhak memakainya).
+- Gunakan gambar dari media **opensuse.id** yang sudah tersedia.
+
+> 💡 Selalu **uji tautan gambar** dengan membukanya di tab baru. Jika gambar muncul,
+> berarti URL sudah benar. Hindari menautkan gambar dari situs yang bisa berubah/hilang.
+
+Contoh:
+
+```markdown
+---
+title: "Judul Artikel"
+image: "https://github.com/user-attachments/assets/contoh-sampul.png"
+---
+
+Paragraf sebelum gambar.
+
+![openSUSE Leap di layar laptop](https://github.com/user-attachments/assets/contoh-isi.png)
+
+Paragraf sesudah gambar.
+```
 
 ---
 
-## ⚠️ Hal Penting
+## ✅ Hal Penting
 
-- **Slug harus identik** di kedua berkas, termasuk huruf kecil dan tanda `-`
-- **ID harus unik** — lihat ID terakhir di `blogPosts.js` dan tambahkan 1. ID terakhir saat ini adalah `189`
-- **Jangan duplikasi metadata** — cukup tulis `author` dan `content` di `BlogPost.jsx`
-- **Kategori selalu huruf kecil** di `blogPosts.js`. Tampilan UI ditangani otomatis oleh `src/lib/categoryUtils.js`
-- Jika slug tidak ditemukan di `blogContents`, halaman akan menampilkan artikel pertama sebagai fallback — pastikan entri selalu ditambahkan di kedua berkas
+- **Satu artikel = satu file baru.** Tidak perlu mengedit file lain.
+- **Nama file = alamat artikel.** Huruf kecil dan tanda minus, akhiri `.md`.
+- **`date` harus `TAHUN-BULAN-TANGGAL`** (contoh `2026-07-01`) — ini yang menentukan
+  urutan artikel (terbaru di atas).
+- Artikel yang namanya diawali garis bawah (misalnya `_TEMPLATE.md`) **tidak** tampil
+  di situs — aman dipakai sebagai contoh.
+- Tidak yakin? Kirim saja Pull Request — pengurus akan bantu meninjau.
+
+> 💡 Selama `yarn start` berjalan, setiap kali Anda menyimpan file artikel, halaman di
+> browser **otomatis memperbarui** sehingga hasilnya langsung terlihat. Untuk berhenti,
+> tekan `Ctrl + C` di terminal.
+
+Sudah puas dengan hasilnya? *Commit* file baru Anda, *push* ke fork, lalu buka Pull
+Request ke `main`.

@@ -6,6 +6,7 @@ import TentangKami from './pages/TentangKami';
 import KodeEtik from './pages/KodeEtik';
 import BlogPage from './pages/BlogPage';
 import BlogPost from './pages/BlogPost';
+import TulisArtikel from './pages/TulisArtikel';
 import Repositori from './pages/Repositori';
 import HubungiPage from './pages/HubungiPage';
 import AsiaSummit2016 from './pages/AsiaSummit2016';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/tentang-kami" element={<TentangKami />} />
             <Route path="/kode-etik" element={<KodeEtik />} />
             <Route path="/blog" element={<BlogPage />} />
+            <Route path="/tulis-artikel" element={<TulisArtikel />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/repositori" element={<Repositori />} />
             <Route path="/hubungi" element={<HubungiPage />} />

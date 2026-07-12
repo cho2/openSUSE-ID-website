@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Download, Globe2, Shield, Sparkles, Users } from 'lucide-react';
 import ImageWithFallback from '../components/ImageWithFallback';
 import { allBlogPosts } from '../data/blogPosts';
+import { getCategoryLabel } from '../lib/categoryUtils';
 
 const HomePage = () => {
   const stats = [
@@ -285,7 +286,7 @@ const HomePage = () => {
           <div className="grid gap-6 md:grid-cols-3 reveal">
             {blogPosts.map((post) => (
               <Link
-                key={post.id}
+                key={post.slug}
                 to={`/blog/${post.slug}`}
                 className="group rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
               >
@@ -298,10 +299,10 @@ const HomePage = () => {
                 </div>
                 <div className="space-y-3 p-5">
                   <div className="flex items-center gap-2 text-xs font-semibold text-[#73ba25]">
-                    <span className="rounded-full bg-[#73ba25]/10 px-3 py-1">{post.category}</span>
+                    <span className="rounded-full bg-[#73ba25]/10 px-3 py-1">{getCategoryLabel(post.category)}</span>
                     <div className="flex items-center text-gray-500">
                       <Calendar className="mr-2 h-4 w-4" />
-                      {post.date}
+                      {post.dateLabel}
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold leading-snug group-hover:text-[#73ba25]">{post.title}</h3>
