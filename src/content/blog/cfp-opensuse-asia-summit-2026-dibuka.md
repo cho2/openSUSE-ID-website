@@ -32,7 +32,7 @@ image: "https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-
         <li>Aplikasi lain yang berjalan di openSUSE</li>
     </ul>
 
-    <p>Topik yang tidak terkait dengan teknologi spesifik juga sangat dipersilakan. Sebagai contoh:</p>
+<p>Topik yang tidak terkait dengan teknologi spesifik juga sangat dipersilakan. Sebagai contoh:</p>
     <ul>
         <li>Ringkasan tentang teknologi FLOSS</li>
         <li>Pengembangan, jaminan kualitas (<em>quality assurance</em>), penerjemahan</li>
