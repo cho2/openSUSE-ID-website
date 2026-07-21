@@ -76,6 +76,14 @@ const AsiaSummit2026 = () => {
               >
                 Ikuti komunitas
               </a>
+              <a
+                href="https://www.loket.com/event/osas26"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#35b9ab] text-white font-semibold rounded-xl transition-all hover:bg-[#00a489]"
+              >
+                Tiket
+              </a>
             </div>
           </div>
         </div>
