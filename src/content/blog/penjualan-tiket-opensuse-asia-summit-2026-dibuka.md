@@ -4,10 +4,10 @@ date: "2026-07-12"
 author: "Tim openSUSE Indonesia"
 category: Kegiatan
 excerpt: "Penjualan Tiket openSUSE.Asia Summit 2026 Dibuka! Amankan Kursimu Sekarang!"
-image: "https://github.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/blob/master/poster/registration/osas-26-open-ticket-v1.2.png"
+image: "https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/registration/osas-26-open-ticket-v1.2.png"
 ---
 
-![qr-osas26-ticket-header-blog](https://github.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/blob/master/poster/registration/osas-26-open-ticket-v1.2.png)
+![https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/registration/osas-26-open-ticket-v1.2.png](https://raw.githubusercontent.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/refs/heads/master/poster/registration/osas-26-open-ticket-v1.2.png)
 
 # Penjualan Tiket openSUSE.Asia Summit 2026 Dibuka! Amankan Kursimu Sekarang!
 
