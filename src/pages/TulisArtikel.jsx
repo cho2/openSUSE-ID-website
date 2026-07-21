@@ -387,7 +387,7 @@ sudo zypper install nama-paket
               </p>
               <ol className="space-y-3">
                 {[
-                  <>Buka halaman <strong>Issue baru</strong> di repositori (menu <strong>Issues → New issue</strong>), atau kotak komentar mana pun di GitHub.</>,
+                  <>Buka halaman <strong>Issue baru</strong> di repositori (menu <strong>Issues → New issue</strong>), atau kotak komentar mana pun di GitHub, atau unggah <a href="https://github.com/opensuse-id/openSUSE-ID-website/issues/17">disini</a>.</>,
                   <><strong>Seret &amp; jatuhkan</strong> file gambar Anda ke dalam kotak teks (atau klik untuk memilih file). Tunggu proses unggah selesai.</>,
                   <>GitHub otomatis menyisipkan tautan seperti <code className="px-1 py-0.5 bg-gray-100 rounded text-red-600">https://github.com/user-attachments/assets/...</code>. <strong>Salin URL</strong> tersebut.</>,
                   <>Tempel URL itu ke <code className="px-1 py-0.5 bg-gray-100 rounded text-red-600">image</code> atau ke <code className="px-1 py-0.5 bg-gray-100 rounded text-red-600">![...](URL)</code>. <strong>Tidak perlu benar-benar mengirim</strong> Issue-nya — cukup ambil URL-nya.</>,
