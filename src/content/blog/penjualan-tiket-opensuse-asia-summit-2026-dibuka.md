@@ -4,10 +4,10 @@ date: "2026-07-12"
 author: "Tim openSUSE Indonesia"
 category: Kegiatan
 excerpt: "Penjualan Tiket openSUSE.Asia Summit 2026 Dibuka! Amankan Kursimu Sekarang!"
-image: "https://github.com/user-attachments/assets/9147bc23-f2c0-42f2-b15d-1bc1367ac303"
+image: "https://github.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/blob/master/poster/registration/osas-26-open-ticket-v1.2.png"
 ---
 
-![qr-osas26-ticket-header-blog](https://github.com/user-attachments/assets/9147bc23-f2c0-42f2-b15d-1bc1367ac303)
+![qr-osas26-ticket-header-blog](https://github.com/opensuse-id/openSUSE-Asia-Summit-2026-artwork/blob/master/poster/registration/osas-26-open-ticket-v1.2.png)
 
 # Penjualan Tiket openSUSE.Asia Summit 2026 Dibuka! Amankan Kursimu Sekarang!
 
@@ -38,7 +38,7 @@ Untuk memastikan kenyamanan proses registrasi, panitia bekerja sama dengan Loket
 
 Kamu bisa langsung mengamankan tiketmu dengan mengklik tautan di bawah ini:
 
-👉 **[Beli Tiket openSUSE.Asia Summit 2026 di Loket.com](https://www.loket.com/event/opensuse-asia-summit-2026-yogyakarta)**
+👉 **[Beli Tiket openSUSE.Asia Summit 2026 di Loket.com](https://www.loket.com/event/osas26)**
 
 ---
 
@@ -46,7 +46,7 @@ Kamu bisa langsung mengamankan tiketmu dengan mengklik tautan di bawah ini:
 
 * **Tanggal Acara:** 3–4 Oktober 2026
 * **Lokasi:** TILC UGM, Yogyakarta, Indonesia
-* **Link Registrasi:** [Loket.com Event Page](https://www.loket.com/event/opensuse-asia-summit-2026-yogyakarta)
+* **Link Registrasi:** [Loket.com Event Page](https://www.loket.com/event/osas26)
 
 Pantau terus blog ini dan kanal komunikasi resmi openSUSE-ID.
 Kamu juga bisa mengunjungi <a href="https://opensuse.id/konferensi/opensuse-asia-summit-2026" target="_blank">halaman khusus openSUSE Asia Summit 2026</a>
