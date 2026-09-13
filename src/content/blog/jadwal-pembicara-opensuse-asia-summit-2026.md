@@ -18,7 +18,7 @@ Bagi yang belum memiliki tiket, segera dapatkan sebelum kehabisan!
 
 📝Catatan Penting: Ini merupakan draf jadwal sementara (Pre-Schedule). Beberapa perubahan terkait urutan waktu, ruangan atau pembicara mungkin masih dapat terjadi hingga hari H.
 
-Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/31878077/openSUSE.Asia.Summit.2026.Pre-Schedule.pdf).
+Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32160240/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
 ---
 # openSUSE.Asia Summit 2026 Schedule
@@ -29,8 +29,8 @@ Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/31878
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 08.00-08.30 (30 min) | Reception Day 1 | | | | |
 | 08.30-09.25 (55 min) | Opening Day 1 | | | | |
-| 09.25-10.05 (40 min) | Keynote #1 - openSUSE Board - Patrick Fitzgerald - The Great Migration | | | | |
-| 10.05-10.35 (30 min) | Keynote #2 - TBD | | | | |
+| 09.25-10.05 (40 min) | Keynote #1 - UIN Sunan Kalijaga - Ir. Muhammad Taufiq Nuruzzaman, Ph.D | | | | |
+| 10.05-10.35 (30 min) | Keynote #2 - openSUSE Board - Douglas DeMaio & Patrick Fitzgerald - The Great Migration | | | | |
 | 10.35-11.00 (25 min) | Group Photo Session & Tea Break | | | | |
 | 11.00-11.45 (45 min) | openSUSE Leap Server as an Ideal Platform for Enterprise Data Lakehouse<br>**Speaker:** Bambang Purnomosidi Dwi Putranto | Security for (not only openSUSE) developers<br>**Speaker:** Johannes Segitz | Getting the next generation to learn the GNU/Linux system<br>**Speaker:** James Ed Randson | Open Source and the Future of Innovation<br>**Speaker:** Shobha Tyagi | Demystifying Kernel Modules and Hardening Your openSUSE System<br>**Speaker:** Kamal Fasya|
 | 11.45-13.00 (75 min) | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch |
