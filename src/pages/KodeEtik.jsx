@@ -20,13 +20,13 @@ const KodeEtik = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-gray-700 leading-relaxed space-y-6 text-lg mb-16">
               <p>
-                Kode Etik openSUSE adalah seperangkat pedoman yang menjelaskan bagaimana komunitas kami berperilaku dan apa yang kami hargai sebagai anggota dan proyeksikan kepada orang lain. Kode Etik ini merupakan dokumen yang berlaku dan akan diperbarui kapan pun dan sebagaimana diperlukan.
+                Kode Etik openSUSE adalah serangkaian panduan yang menjelaskan cara komunitas kami berperilaku serta nilai-nilai yang kami pegang sebagai anggota dan yang kami tampilkan kepada pihak lain. Kode Etik ini merupakan dokumen hidup dan akan diperbarui sewaktu-waktu jika dianggap perlu.
               </p>
               <p>
-                Kode Etik ini tidak bertujuan untuk membatasi kebebasan berbicara atau menghukum penutur non-asli bahasa Inggris atau bahasa lainnya. Sebaliknya, Kode Etik ini menguraikan jenis-jenis perilaku yang kami, sebagai komunitas, anggap dapat diterima dan tidak dapat diterima.
+                Kode Etik ini tidak bertujuan untuk membatasi kebebasan berbicara atau menghukum penutur asing bahasa Inggris maupun bahasa lainnya. Sebaliknya, Kode Etik ini menjabarkan jenis perilaku yang kami, sebagai sebuah komunitas, anggap dapat diterima dan tidak dapat diterima.
               </p>
               <p>
-                Kode Etik ini, dalam banyak hal, merupakan perwujudan nyata dari komponen-komponen openSUSE. Penting untuk mengasumsikan itikad baik dan mengingat bahwa banyak kontributor kami mungkin memiliki latar belakang yang berbeda, yang dapat memengaruhi pendekatan mereka dalam segala hal.
+                Kode Etik ini, dalam banyak hal, merupakan perwujudan nyata dari komponen openSUSE. Penting untuk selalu berprasangka baik dan mengingat bahwa banyak kontributor kami mungkin memiliki latar belakang berbeda yang dapat memengaruhi pendekatan mereka dalam segala hal.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ const KodeEtik = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Standar Kami</h3>
               <div className="space-y-4 text-gray-700">
                 <div className="flex items-start">
-                  <p>Komunitas openSUSE Indonesia berdedikasi untuk menyediakan pengalaman positif bagi semua orang, terlepas dari atribut tersebut (termasuk, tetapi tidak terbatas pada):</p>
+                  <p>Komunitas openSUSE berdedikasi untuk memberikan pengalaman positif bagi semua orang, tanpa memandang atribut seperti (termasuk, namun tidak terbatas pada):</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
@@ -47,91 +47,91 @@ const KodeEtik = () => {
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Kasta</p>
+                  <p>kasta</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Kewarganegaraan</p>
+                  <p>kewarganegaraan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Disabilitas</p>
+                  <p>disabilitas</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Pendidikan</p>
+                  <p>pendidikan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Etnisitas</p>
+                  <p>etnis</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Status keluarga</p>
+                  <p>status keluarga</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Ekspresi gender</p>
+                  <p>ekspresi gender</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Identitas gender</p>
+                  <p>identitas gender</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Informasi genetik</p>
+                  <p>informasi genetik</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Status imigrasi</p>
+                  <p>status imigrasi</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Tingkat pengalaman</p>
+                  <p>tingkat pengalaman</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Kebangsaan</p>
+                  <p>kebangsaan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Penampilan pribadi</p>
+                  <p>penampilan fisik</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Kehamilan</p>
+                  <p>kehamilan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Balapan</p>
+                  <p>ras</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Agama</p>
+                  <p>agama</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Karakteristik jenis kelamin</p>
+                  <p>karakteristik seksual</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Orientasi seksual</p>
+                  <p>orientasi seksual</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Identitas seksual</p>
+                  <p>identitas seksual</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Status sosial ekonomi</p>
+                  <p>status sosial ekonomi</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Suku</p>
+                  <p>suku</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Status veteran</p>
+                  <p>status veteran</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
@@ -161,11 +161,11 @@ const KodeEtik = () => {
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Menghormati sudut pandang dan pengalaman yang berbeda, serta kontribusinya terhadap proyek secara keseluruhan</p>
+                  <p>Menghargai perbedaan sudut pandang dan pengalaman, serta kontribusi mereka terhadap proyek secara keseluruhan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Berfokus pada apa yang terbaik bagi masyarakat</p>
+                  <p>Berfokus pada hal terbaik bagi komunitas</p>
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ const KodeEtik = () => {
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Pernyataan yang seksis, rasis, homofobik, transfobik, diskriminatif terhadap penyandang disabilitas, atau bersifat eksklusif, meskipun dimaksudkan sebagai lelucon</p>
+                  <p>Pernyataan yang seksis, rasis, homofobik, transfobik, diskriminasi terhadap penyandang disabilitas (ableisme), atau bersifat eksklusif, meskipun dimaksudkan sebagai lelucon</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
@@ -186,19 +186,19 @@ const KodeEtik = () => {
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Penggunaan bahasa atau gambar yang mengandung unsur seksual serta perhatian atau ajakan seksual yang tidak diinginkan</p>
+                  <p>Penggunaan bahasa atau gambar bernuansa seksual serta perhatian atau godaan seksual yang tidak diinginkan</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Mengatakan komentar yang menghina atau merendahkan serta melakukan serangan pribadi</p>
+                  <p>Menyampaikan komentar yang merendahkan atau menghina dan melakukan serangan pribadi</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Pelecehan publik atau pribadi, termasuk doxing</p>
+                  <p>Pelecehan terbuka atau pribadi, termasuk doksing</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Ancaman atau bahasa kekerasan yang ditujukan kepada orang lain</p>
+                  <p>Ancaman kekerasan atau bahasa kasar yang ditujukan kepada orang lain</p>
                 </div>
               </div>
             </div>
@@ -212,15 +212,15 @@ const KodeEtik = () => {
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>grup Telegram openSUSE Indonesia</p>
+                  <p>Seluruh saluran openSUSE Indonesia, mencakup situs web opensuse.id, grup Telegram, grup dan halaman Facebook, Instagram, X, YouTube, Threads, dan Fediverse.</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Semua tempat acara dan ruang terkait, termasuk konferensi, hackfest, pesta rilis, lokakarya, dan acara kecil lainnya</p>
+                  <p>Seluruh lokasi acara dan ruang terkait, termasuk konferensi, hackfest, pesta rilis, lokakarya, dan acara kecil lainnya</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
-                  <p>Semua area yang berhubungan dengan tempat acara: ruang pameran vendor, area staf dan makan, infrastruktur penghubung seperti jalan setapak, lorong, lift, dan tangga</p>
+                  <p>Seluruh area yang berkaitan dengan lokasi acara: aula pameran vendor, area staf dan tempat makan, infrastruktur penghubung seperti jalur pejalan kaki, lorong, lift, dan tangga</p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#73ba25] font-bold text-xl mr-3">•</span>
@@ -235,23 +235,23 @@ const KodeEtik = () => {
                   <p>Percakapan pribadi yang berlangsung di hotel konferensi resmi</p>
                 </div>
                 <div className="flex items-start">
-                  <p>Saluran komunikasi dan percakapan pribadi yang biasanya di luar cakupan dapat dianggap masuk cakupan jika seorang peserta openSUSE Indonesia dikuntit atau dilecehkan. Percakapan media sosial dapat dianggap masuk cakupan jika insiden terjadi di bawah tagar acara openSUSE Indonesia, atau ketika akun media sosial resmi openSUSE Indonesia ditandai, atau dalam diskusi lain tentang openSUSE. openSUSE Indonesia berhak untuk mengambil tindakan terhadap perilaku yang terjadi dalam konteks apa pun, jika dianggap relevan dengan proyek openSUSE Indonesia dan para pesertanya.</p>
+                  <p>Saluran komunikasi dan percakapan pribadi yang biasanya di luar cakupan dapat dianggap masuk cakupan jika seorang peserta openSUSE Indonesia dikuntit atau dilecehkan. Percakapan media sosial dapat dianggap masuk cakupan jika insiden terjadi di dalam postingan openSUSE Indonesia, di bawah tagar acara openSUSE Indonesia, saat akun media sosial resmi openSUSE Indonesia ditandai, atau dalam diskusi lain tentang openSUSE. openSUSE Indonesia berhak untuk mengambil tindakan terhadap perilaku yang terjadi dalam konteks apa pun, jika dianggap relevan dengan proyek openSUSE Indonesia dan para pesertanya.</p>
                 </div>
                 <div className="flex items-start">
-                  <p>Semua peserta di ruang komunitas openSUSE Indonesia tunduk pada Kode Etik. Ini termasuk sukarelawan, pengelola, pemimpin, kontributor, peninjau kontribusi, pelapor isu, pengguna openSUSE, dan siapa pun yang berpartisipasi dalam diskusi di ruang komunitas openSUSE Indonesia. Untuk acara komunitas, ini juga mencakup semua peserta, peserta pameran, vendor, pembicara, panelis, penyelenggara, staf, dan sukarelawan.</p>
+                  <p>Semua peserta di ruang komunitas openSUSE Indonesia terikat pada Kode Etik. Ini termasuk sukarelawan, pengelola, pemimpin, kontributor, peninjau kontribusi, pelapor masalah, pengguna openSUSE, dan siapa saja yang berpartisipasi dalam diskusi di ruang komunitas openSUSE Indonesia. Untuk acara komunitas, ini juga mencakup seluruh peserta, peserta pameran, vendor, pembicara, panelis, penyelenggara, staf, dan sukarelawan.</p>
                 </div>
               </div>
             </div>
 
             {/* Activities Section */}
             <div className="bg-gray-50 rounded-xl p-8 mb-5">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Siapa yang Harus Dihubungi</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">Pihak yang Harus Dihubungi</h3>
               <div className="space-y-4 text-gray-700">
                 <div className="flex items-start">
-                  <p>Setiap orang yang memiliki masalah atau pertanyaan tentang potensi pelanggaran Kode Etik dapat menyampaikannya secara langsung di grup telegram.</p>
+                  <p>Setiap orang yang memiliki masalah atau pertanyaan tentang potensi pelanggaran Kode Etik dapat menyampaikannya dengan menghubungi melalui surel di <a href="mailto:humas@opensuse.id">humas@opensuse.id</a> atau menghubungi admin masing-masing kanal saluran openSUSE Indonesia secara pribadi (Telegram, Facebook, Instagram, X, YouTube, Threads, dan Fediverse).</p>
                 </div>
                 <div className="flex items-start">
-                  <p>Jika Anda tidak ingin menyampaikan secara langsung (misal karena melibatkan anggota dewan), hubungi salah satu satu atau beberapa anggota dewan lainnya, dengan memberikan informasi yang sama.</p>
+                  <p>Hal ini berlaku dalam segala kondisi. Apabila Anda merasa bahwa masalah tersebut tidak diselesaikan, Anda dapat mengajukan permohonan peninjauan ulang kepada <a href="https://en.opensuse.org/openSUSE:Board" target="_blank">openSUSE board</a> dengan membuat laporan yang sama.</p>
                 </div>
               </div>
             </div>
@@ -261,38 +261,38 @@ const KodeEtik = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Atribusi & Lisensi</h3>
               <div className="space-y-4 text-gray-700">
                 <div className="flex items-start">
-                  <p>Kode etik ini berasal dari dokumen Kode Etik Proyek Fedora dan Proyek GNOME.</p>
+                  <p>Kode Etik ini diturunkan dari dokumen Kode Etik Proyek Fedora dan Proyek GNOME.</p>
                 </div>
                 <div className="flex items-start">
-                  <p>Kode Etik Proyek Fedora: https://docs.fedoraproject.org/en-US/project/code-of-conduct/</p>
+                  <p>Kode Etik Proyek Fedora: <a href="https://docs.fedoraproject.org/en-US/project/code-of-conduct/" target="_blank">https://docs.fedoraproject.org/en-US/project/code-of-conduct/</a></p>
                 </div>
                 <div className="flex items-start">
-                  <p>Kode Etik Proyek GNOME: https://wiki.gnome.org/Foundation/CodeOfConduct</p>
+                  <p>Kode Etik Proyek GNOME: <a href="https://wiki.gnome.org/Foundation/CodeOfConduct" target="_blank">https://wiki.gnome.org/Foundation/CodeOfConduct</a></p>
                 </div>
                 <div className="flex items-start">
-                  <p>Dokumen ini dilisensikan di bawah Lisensi Internasional Creative Commons Atribusi Berbagi Serupa 4.0 .</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Activities Section */}
-            <div className="bg-gray-50 rounded-xl p-8 mb-5">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Versi kanonik</h3>
-              <div className="space-y-4 text-gray-700">
-                <div className="flex items-start">
-                  <p>Versi kanonik dokumen ini dipelihara dan diperbarui oleh Tim Moderasi.</p>
-                </div>
-                <div className="flex items-start">
-                  <p>Dapat dilihat di sini: https://code.opensuse.org/project/coc/blob/main/f/Code-of-Conduct.md</p>
+                  <p>Dokumen ini dilisensikan di bawah <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.id" target="_blank">Lisensi Creative Commons Atribusi-BerbagiSerupa 4.0 Internasional.</a></p>
                 </div>
               </div>
             </div>
 
             {/* Activities Section */}
             <div className="bg-gray-50 rounded-xl p-8 mb-5">
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">Versi Kanonik</h3>
               <div className="space-y-4 text-gray-700">
                 <div className="flex items-start">
-                  <i>Halaman ini dibuat dan terakhir disunting pada 4 Desember 2025, pukul 16:23 waktu Jakarta</i>
+                  <p>Versi kanonik dokumen ini dipelihara dan diperbarui oleh Tim Moderasi openSUSE.</p>
+                </div>
+                <div className="flex items-start">
+                  <p>Dapat dilihat di sini: <a href="https://code.opensuse.org/project/coc/blob/main/f/Code-of-Conduct.md" target="_blank">https://code.opensuse.org/project/coc/blob/main/f/Code-of-Conduct.md</a></p>
+                </div>
+              </div>
+            </div>
+
+            {/* Activities Section */}
+            <div className="bg-gray-50 rounded-xl p-8 mb-5">
+              <div className="space-y-4 text-gray-700">
+                <div className="flex items-start">
+                  <i>Halaman ini dibuat dan terakhir disunting pada 16 September 2026, pukul 18:03 waktu UTC+7</i>
                 </div>
               </div>
             </div>
