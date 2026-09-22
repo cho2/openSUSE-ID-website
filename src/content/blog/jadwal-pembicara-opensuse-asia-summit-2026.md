@@ -18,9 +18,9 @@ Bagi yang belum memiliki tiket, segera dapatkan sebelum kehabisan!
 
 📝Catatan Penting: Ini merupakan draf jadwal finla. Beberapa perubahan terkait urutan waktu, ruangan atau pembicara mungkin masih dapat terjadi hingga hari H.
 
-Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32431113/openSUSE.Asia.Summit.2026.Schedule.pdf).
+Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32510849/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
-PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32431113/openSUSE.Asia.Summit.2026.Schedule.pdf).
+PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32510849/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
 ---
 # openSUSE.Asia Summit 2026 Schedule
