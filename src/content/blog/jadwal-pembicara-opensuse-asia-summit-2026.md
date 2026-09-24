@@ -20,7 +20,7 @@ Bagi yang belum memiliki tiket, segera dapatkan sebelum kehabisan!
 
 Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32592056/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
-PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32551502/openSUSE.Asia.Summit.2026.Schedule.pdf).
+PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32592056/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
 ---
 # openSUSE.Asia Summit 2026 Schedule
