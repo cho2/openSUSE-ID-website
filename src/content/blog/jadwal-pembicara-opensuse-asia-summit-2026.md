@@ -18,7 +18,7 @@ Bagi yang belum memiliki tiket, segera dapatkan sebelum kehabisan!
 
 📝Catatan Penting: Ini merupakan jadwal final. Beberapa perubahan terkait urutan waktu, ruangan atau pembicara mungkin masih dapat terjadi hingga hari H.
 
-Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32551502/openSUSE.Asia.Summit.2026.Schedule.pdf).
+Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32592056/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
 PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32551502/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
@@ -32,7 +32,7 @@ PDF version of full schedulue can be downloaded [here](https://github.com/user-a
 | 08.00-08.30 (30 min) | Reception Day 1 | | | | |
 | 08.30-09.25 (55 min) | Opening Day 1 | | | | |
 | 09.25-10.05 (40 min) | Keynote #1 - UIN Sunan Kalijaga - Ir. Muhammad Taufiq Nuruzzaman, Ph.D | | | | |
-| 10.05-10.45 (40 min) | Keynote #2 - openSUSE Board - Douglas DeMaio & Patrick Fitzgerald - The Great Migration | | | | |
+| 10.05-10.45 (40 min) | Keynote #2 - Patrick Fitzgerald (Geeko Foundation founder and openSUSE member) - The Great Migration | | | | |
 | 10.45-11.00 (15 min) | Group Photo Session & Tea Break | | | | |
 | 11.00-11.45 (45 min) | openSUSE Leap Server as an Ideal Platform for Enterprise Data Lakehouse<br>**Speaker:** Bambang Purnomosidi Dwi Putranto | Security for (not only openSUSE) developers<br>**Speaker:** Johannes Segitz | Getting the next generation to learn the GNU/Linux system<br>**Speaker:** James Ed Randson | Open Source and the Future of Innovation<br>**Speaker:** Shobha Tyagi | Demystifying Kernel Modules and Hardening Your openSUSE System<br>**Speaker:** Kamal Fasya|
 | 11.45-13.00 (75 min) | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch |
@@ -55,8 +55,8 @@ PDF version of full schedulue can be downloaded [here](https://github.com/user-a
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 08.30-09.00 (30 min) | Reception Day 2 | | | | |
 | 09.00-09.25 (25 min) | Opening Day 2 | | | | |
-| 09.25-10.05 (40 min) | Keynote #3 - Sunny - Leadership in the Open Source Community | | | | |
-| 10.05-10.45 (40 min) | Keynote #4 - Douglas DeMaio - Geeko Foundation Update | | | | |
+| 09.25-10.05 (40 min) | Keynote #3 - Sunny (SUSE) - Leadership in the Open Source Community | | | | |
+| 10.05-10.45 (40 min) | Keynote #4 - Douglas DeMaio (openSUSE) - Geeko Foundation Update | | | | |
 | 10.45-11.00 (15 min) | Group Photo Session & Tea Break | | | | |
 | 11.00-11.45 (45 min) | An Introduction to openSUSE Packaging using Git and OBS<br>**Speaker:** Simon Lees | The Pragmatic Skripsi: How I Wrote My Undergraduate Thesis Using FOSS on openSUSE<br>**Speaker:** Muhammad Raihan Widagdo | Women in Tech: Building Confidence, Influence, and Leadership<br>**Speaker:** Hamnah Suhaeri | Get Into The Kernel External Scheduler (sched_ext) - A Study Shared<br>**Speaker:** Tonny Adhi Sabastian | Defeating CGNAT: Building a Secure, Open-Source Network Perimeter for Bare-Metal Labs<br>**Speaker:** Farras Daffa Yassarramadhan |
 | 11.45-13.00 (75 min) | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch |
