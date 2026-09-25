@@ -3,7 +3,7 @@ title: "Bagaimana menuju venue openSUSE.Asia Summit 2026?"
 date: "2026-09-24"
 author: "Tim openSUSE Indonesia"
 category: kegiatan
-excerpt: "Bagaimana menuju venue openSUSE.Asia Summit 2026?"
+excerpt: "Bagaimana menuju venue openSUSE.Asia Summit 2026? Ini adalah panduan transportasi atau cara menuju venue openSUSE.Asia Summit 2026 di Yogyakarta."
 image: "https://github.com/user-attachments/assets/e2f6150e-028f-4edc-b37b-b9339b7a6e90"
 ---
 Bagaimana menuju venue openSUSE.Asia Summit 2026? Ini adalah panduan transportasi atau cara menuju venue openSUSE.Asia Summit 2026 di Yogyakarta.
