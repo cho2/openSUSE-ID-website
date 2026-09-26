@@ -18,9 +18,9 @@ Bagi yang belum memiliki tiket, segera dapatkan sebelum kehabisan!
 
 📝Catatan Penting: Ini merupakan jadwal final. Beberapa perubahan terkait urutan waktu, ruangan atau pembicara mungkin masih dapat terjadi hingga hari H.
 
-Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32592056/openSUSE.Asia.Summit.2026.Schedule.pdf).
+Versi pdf dapat diunduh [disini](https://github.com/user-attachments/files/32675478/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
-PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32592056/openSUSE.Asia.Summit.2026.Schedule.pdf).
+PDF version of full schedulue can be downloaded [here](https://github.com/user-attachments/files/32675478/openSUSE.Asia.Summit.2026.Schedule.pdf).
 
 ---
 # openSUSE.Asia Summit 2026 Schedule
@@ -58,13 +58,13 @@ PDF version of full schedulue can be downloaded [here](https://github.com/user-a
 | 09.25-10.05 (40 min) | Keynote #3 - Sunny (SUSE) - Leadership in the Open Source Community | | | | |
 | 10.05-10.45 (40 min) | Keynote #4 - Douglas DeMaio (openSUSE) - Geeko Foundation Update | | | | |
 | 10.45-11.00 (15 min) | Group Photo Session & Tea Break | | | | |
-| 11.00-11.45 (45 min) | An Introduction to openSUSE Packaging using Git and OBS<br>**Speaker:** Simon Lees | The Pragmatic Skripsi: How I Wrote My Undergraduate Thesis Using FOSS on openSUSE<br>**Speaker:** Muhammad Raihan Widagdo | Women in Tech: Building Confidence, Influence, and Leadership<br>**Speaker:** Hamnah Suhaeri | Get Into The Kernel External Scheduler (sched_ext) - A Study Shared<br>**Speaker:** Tonny Adhi Sabastian | Defeating CGNAT: Building a Secure, Open-Source Network Perimeter for Bare-Metal Labs<br>**Speaker:** Farras Daffa Yassarramadhan |
+| 11.00-11.45 (45 min) | An Introduction to openSUSE Packaging using Git and OBS<br>**Speaker:** Simon Lees | The Pragmatic Skripsi: How I Wrote My Undergraduate Thesis Using FOSS on openSUSE<br>**Speaker:** Muhammad Raihan Widagdo | Women in Tech: Building Confidence, Influence, and Leadership<br>**Speaker:** Hamnah Suhaeri | Get Into The Kernel External Scheduler (sched_ext) - A Study Shared<br>**Speaker:** Tonny Adhi Sabastian | What's new in SUSE Linux Enterprise Server 16.1<br>**Speaker:** Yaroslav Kornilov & Michal Svec |
 | 11.45-13.00 (75 min) | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch | Break & Lunch |
 | 13.15-13.45 (30 min) | Immutable and Mutable Chameleon Showdown: A Comparative Study on openSUSE MicroOS and openSUSE Tumbleweed<br>**Speaker:** Firzan Irfandi Firman | Stay Safe while Stay Secure and Stay Compliance<br>**Speaker:** Anton Siswo Raharjo Ansori | Common Linux Beginner Mistakes — and How to Avoid Them<br>**Speaker:** Sk Izaz Ahmed | Bridging the Gap: Integrating Linux Virtualization into Programming Classes to Breed Full-Stack-Aware Developers<br>**Speaker:** Moh Noor Al Azama | Podman in openSUSE Tumbleweed/Leap<br>**Speaker:** Didiet A. Pambudiono |
 | 13.45-14.15 (30 min) | Practical Vulnerability Management on openSUSE with Wazuh<br>**Speaker:** Rio Wiraldhani | Building a Personal Multi-Tenant Web Hosting Server with openSUSE Leap 16.0<br>**Speaker:** Dhantel Rhesa Prawedha | Building a Self-Hosted Cloud Native Platform Using Open Source Technologies<br>**Speaker:** Fadilah Riczky | Which Linux Distribution Performs Best for Containerized WordPress?<br>**Speaker:** Muhammad Najib | Breaking the "Linux is Hard" Stigma: A Honest Beginner's Perspective on Navigating the Technology Barrier<br>**Speaker:** Nayla Putri Danisa |
 | 14.15-14.45 (30 min) | How to type Javanese and Kawi scripts at openSUSE<br>**Speaker:** Rahman Yusri Aftian | Hardening openSUSE against rogue prompts using MBG<br>**Speaker:** Levay | Building a Campus Cloud with Clientless VM Access: Proxmox VE, Guacamole, RBAC, and Tailscale<br>**Speaker:** Arrizal Yuwana | Anthony: A Fully Local Voice-Controlled Desktop for GNOME on Linux<br>**Speaker:** Jiri Prajzner | How openSUSE Works: Leap, Tumbleweed, OBS, openQA, and YaST<br>**Speaker:** Rithull Raj Kallat |
 | 14.45-15.30 (45 min) | Tea Break | Tea Break | Tea Break | Tea Break | Tea Break |
-| 15.30-16.00 (30 min) | Terminal-First Multimedia on openSUSE<br>**Speaker:** Yuki Otsuka | Running Database Migrations Safely in Kubernetes<br>**Speaker:** Ilham Setiawan | Running a 5G System on Your Laptop<br>**Speaker:** Iwan Setiawan | Inside Rancher’s Provisioning Engine: Architecting Alibaba Cloud Drivers and EKS IPv6 Support for Scale<br>**Speaker:** vivek.shilimkar, swastik959 | Making Nusantara Manuscripts More Open with Open Source<br>**Speaker:** Faiq Aminuddin |
+| 15.30-16.00 (30 min) | Terminal-First Multimedia on openSUSE<br>**Speaker:** Yuki Otsuka | Running Database Migrations Safely in Kubernetes<br>**Speaker:** Ilham Setiawan | Running a 5G System on Your Laptop<br>**Speaker:** Iwan Setiawan | Inside Rancher’s Provisioning Engine: Architecting Alibaba Cloud Drivers and EKS IPv6 Support for Scale<br>**Speaker:** Vivek Shilimkar & Swastik Gour | Making Nusantara Manuscripts More Open with Open Source<br>**Speaker:** Faiq Aminuddin |
 | 16.00-16.10 (10 min) | openSUSE Asia Summit Next Years<br>**Speaker:** TBD | | | | |
 | 16.10-16.20 (10 min) | Lightning Talk #4 <br>**Andy Hidayat** - Deploy OpenSUSE Leap VM Based under FreeBSD Bhyve Hypervisor | | | | |
 | 16.20-16.30 (10 min) | Lightning Talk #5 <br>**Siska Iskandar** - How To Talk to 5 Years-Old About Open Source | | | | |
