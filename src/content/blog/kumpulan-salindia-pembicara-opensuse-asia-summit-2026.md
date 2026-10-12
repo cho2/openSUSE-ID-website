@@ -11,7 +11,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 
 1.	Aayan Mateen	- 	Securing the Modern Stack: Containers, Open Source, and the Tools Keeping Up
 1.	Ahmad Haris & Ahmad Romadhon H	- 	Symbiot Office: LibreOffice Engine on Your Tablet Device
-1.	Ahmad Saufi Maulana	- 	Secrets Across Clusters
+1.	[Ahmad Saufi Maulana	- 	Secrets Across Clusters](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-secrets-across-clusters-ahmad-saufi-maulana.pdf)
 1.	Akash Kumar	- 	From Zero to Uyuni: Building a Reproducible Systems Management Lab with openSUSE, RKE2 and Helm
 1.	[Aldin Setiawan	- 	I Put a KDE Desktop in a Pod Because I Could: Gaming with CNCF Infrastructure](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-gaming-with-cncf-infrastructure-aldin-setiawan.pdf)
 1.	Andi Sugandi	- 	Securing Microservice Architectures with Traefik and CrowdSec on openSUSE Server
@@ -20,13 +20,13 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	[Bambang Purnomosidi Dwi Putranto	- 	openSUSE Leap Server as an Ideal Platform for Enterprise Data Lakehouse](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-opensuse-leap-server-as-an-ideal-platform-for-bambang-purnomosidi-dwi-putran.pdf)
 1.	Bayu Putra Herlambang	- 	Building Resilient Networks with OpenMPTCProuter for Disaster Recovery
 1.	[Darian Rizaludin	- 	Demystifying Server Security: A Beginner-Friendly Intro to Wazuh and openSUSE Leap 16](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-demystifying-server-security-a-beginner-frien-darian-rizaludin.pdf)
-1.	Dhantel Rhesa Prawedha	- 	Building a Personal Multi-Tenant Web Hosting Server with openSUSE Leap 16.0
+1.	[Dhantel Rhesa Prawedha	- 	Building a Personal Multi-Tenant Web Hosting Server with openSUSE Leap 16.0](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-building-a-personal-multi-tenant-web-hosting-dhantel-rhesa-prawedha.pdf)
 1.	[Didiet A. Pambudiono	- 	Podman in openSUSE Tumbleweed/Leap](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-podman-in-opensuse-tumbleweed-leap-didiet-agus-pambudiono.pdf)
 1.	Douglas DeMaio	- 	Geeko Foundation Update
 1.	Ernawan	- 	Bringing openSUSE into the Classroom
 1.	Fadilah Riczky	- 	Building a Self-Hosted Cloud Native Platform Using Open Source Technologies
 1.	Faiq Aminuddin	- 	Making Nusantara Manuscripts More Open with Open Source
-1.	Firzan Irfandi Firman	- 	Immutable and Mutable Chameleon Showdown: A Comparative Study on openSUSE MicroOS and openSUSE Tumbleweed
+1.	[Firzan Irfandi Firman	- 	Immutable and Mutable Chameleon Showdown: A Comparative Study on openSUSE MicroOS and openSUSE Tumbleweed](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-immutable-and-mutable-chameleon-showdown-a-co-firzan-irfandi-firman.pdf)
 1.	[Geraldhi Aditya Putra Mahayadnya	- 	Distributed Monitoring system using Prometheus and Thanos on OpenSUSE servers](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-distributed-monitoring-system-using-prometheu-geraldhi-aditya-putra-mahayadn.pdf)
 1.	Hamnah Suhaeri	- 	Women in Tech: Building Confidence, Influence, and Leadership
 1.	[Herpiko Dwi Aguno	- 	The Invisible Infrastructure of Community: Building Communities People Want to Stay In](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-the-invisible-infrastructure-of-community-bui-herpiko-dwi-aguno.pdf)
@@ -61,9 +61,9 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	Simon Lees	- 	An Introduction to openSUSE Packaging using Git and OBS
 1.	[Sk Izaz Ahmed	- 	Common Linux Beginner Mistakes — and How to Avoid Them](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-i-don-t-know-what-i-just-ran-a-beginner-s-gui-sk-izaz-ahmed.pdf)
 1.	Sunny 	- 	Leadership in the Open Source Community
-1.	Tonny Adhi Sabastian	- 	Get Into The Kernel External Scheduler (sched_ext) - A Study Shared
+1.	[Tonny Adhi Sabastian	- 	Get Into The Kernel External Scheduler (sched_ext) - A Study Shared](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-get-into-the-kernel-external-scheduler-sched-tonny-adhi-sabastian.pdf)
 1.	Vivek Shilimkar & Swastik Gour	- 	Inside Rancher’s Provisioning Engine: Architecting Alibaba Cloud Drivers and EKS IPv6 Support for Scale
-1.	Yaroslav Kornilov & Michal Svec	- 	What's new in SUSE Linux Enterprise Server 16.1
+1.	[Yaroslav Kornilov & Michal Svec	- 	What's new in SUSE Linux Enterprise Server 16.1](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-what-s-new-in-suse-linux-enterprise-server-16-yaroslav-kornilov.pdf)
 1.	Yudha Agung Gumelar	- 	Forgotten Features of Inkscape
 1.	[Yuki Otsuka	- 	Terminal-First Multimedia on openSUSE](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-terminal-first-multimedia-on-opensuse-yuki-otsuka.pdf)
  
