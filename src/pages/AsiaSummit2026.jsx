@@ -3,7 +3,7 @@ import { Calendar, MapPin, Users, Award, ExternalLink, Sparkles, Globe2 } from '
 
 const AsiaSummit2026 = () => {
   const quickFacts = [
-    { label: 'Status', value: 'Sudah diumumkan', icon: Sparkles },
+    { label: 'Status', value: 'Terlaksana', icon: Sparkles },
     { label: 'Acara', value: 'openSUSE.Asia Summit 2026', icon: Globe2 },
     { label: 'Tanggal', value: '3-4 Oktober 2026', icon: Calendar },
     { label: 'Lokasi', value: 'Convention Hall Universitas Islam Negeri (UIN) Sunan Kalijaga, Yogyakarta', icon: MapPin },
@@ -48,15 +48,11 @@ const AsiaSummit2026 = () => {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_85%_10%,rgba(28,157,217,0.16),transparent_28%)]" />
         <div className="container mx-auto px-4">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-5">
-              <Sparkles className="h-4 w-4" />
-              Akan diadakan
-            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               openSUSE.Asia Summit 2026
             </h1>
             <p className="text-xl md:text-2xl opacity-95 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Konferensi komunitas openSUSE untuk kawasan Asia akan diadakan pada 3-4 Oktober 2026 di Convention Hall Universitas Islam Negeri (UIN) Sunan Kalijaga, Yogyakarta.
+              Konferensi komunitas openSUSE untuk kawasan Asia diadakan pada 3-4 Oktober 2026 di Convention Hall Universitas Islam Negeri (UIN) Sunan Kalijaga, Yogyakarta.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -85,12 +81,7 @@ const AsiaSummit2026 = () => {
                 Tiket
               </a>
             </div>
-
-            {/* Countdown */}
-            <div className="flex justify-center mt-12 -mb-8">
-              <iframe width="700" height="160" src="https://w2.countingdownto.com/7362478" frameborder="0"></iframe>
-            </div>
-            
+           
           </div>
         </div>
       </section>
@@ -127,7 +118,7 @@ const AsiaSummit2026 = () => {
                 Acara ini menjadi ruang untuk berbagi pengetahuan, pengalaman, dan membangun kolaborasi antar komunitas.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Untuk edisi 2026, konferensi akan berlangsung pada 3-4 Oktober 2026 di Convention Hall Universitas Islam Negeri (UIN) Sunan Kalijaga, Yogyakarta.
+                Untuk edisi 2026, konferensi berlangsung pada 3-4 Oktober 2026 di Convention Hall Universitas Islam Negeri (UIN) Sunan Kalijaga, Yogyakarta.
                 Halaman ini menjadi pengantar awal untuk informasi agenda, pembicara, dan aktivitas komunitas.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
