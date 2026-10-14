@@ -41,3 +41,11 @@ Akhir kata, Komunitas openSUSE Indonesia mengucapkan terima kasih kepada para pe
 > Boleh kita berjumpa lagi.
 
 Sampai jumpa di acara keren selanjutnya. 
+
+## Highlight Day 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3G7NecfaJSs?si=LWBATXUzc3ilnoLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Highlight Day 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OfyN6ijbtDg?si=bqUbHTv91STdIlGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
