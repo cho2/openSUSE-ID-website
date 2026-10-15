@@ -40,7 +40,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	Kamal Fasya	- 	Demystifying Kernel Modules and Hardening Your openSUSE System
 1.	Levay	- 	Hardening openSUSE against rogue prompts using MBG
 1.	Lubos Kocman	- 	Kudos - openSUSE's new recognition platform
-1.	Maulana Abdurrahman	- 	Integrating Local AI Agents within the openSUSE Ecosystem
+1.	[Maulana Abdurrahman	- 	Integrating Local AI Agents within the openSUSE Ecosystem](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-integrating-local-ai-agents-within-the-opensu-maulana-abdurrahman.pdf)
 1.	Moh Noor Al Azam	- 	Bridging the Gap: Integrating Linux Virtualization into Programming Classes to Breed Full-Stack-Aware Developers
 1.	Moh. Ali	- 	From DNS Query to Nearest Edge: Geographic Load Balancing with gdnsd and MaxMind GeoIP2
 1.  [Muhammad Dhenandi Putra - Welcome to openSUSE.Asia Summit 2026](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-welcome-to-opensuse-asia-summit-2026-muhammad-dhenandi-putra.pdf)
@@ -52,7 +52,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	Nizar Akbar	- 	Kernel-Enforced Sandboxing for AI Agent Supply Chains with nono.sh
 1.	Nurul Aulia Dewi	- 	Deep Learning Based Automated Feature Extraction in QGIS
 1.	Patrick Fitzgerald	- 	The Great Migration
-1.	Rahman Yusri Aftian	- 	How to type Javanese and Kawi scripts at openSUSE
+1.	[Rahman Yusri Aftian	- 	How to type Javanese and Kawi scripts at openSUSE](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-how-to-type-javanese-and-kawi-scripts-at-open-rahman-yusri-aftian.pdf)
 1.	[Rio Wiraldhani	- 	Practical Vulnerability Management on openSUSE with Wazuh](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-practical-vulnerability-management-on-opensus-rio-wiraldhani.pdf)
 1.	[Rithull Raj Kallat & Divyanshu Prakash	- 	How openSUSE Works: Leap, Tumbleweed, OBS, openQA, and YaST](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-how-opensuse-works-rithull-raj-kallat.pdf)
 1.	[Robertus Diawan Chris	- 	Kickstart Linux Kernel Contribution by Fixing Coverity Issue](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-kickstart-linux-kernel-contribution-by-fixing-robertus-diawan-chris.pdf)
