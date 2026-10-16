@@ -22,6 +22,11 @@ Berikut ini merupakan kumpulan cerita, artikel blog, dan catatan pengalaman sepu
 
 1. [Judul](https://opensuse.id) - Nama Penulis
 
+## Lainnya 
+
+1. [openSUSE](https://news.opensuse.org/2026/10/16/osas-and-oss-eu-2026-report/) - Lubos Kocman
+1. [openSUSE-ID](https://opensuse.id/blog/opensuse-asia-summit-2026-pulang-ke-yogyakarta) - Tim openSUSE.Asia Summit 2026
+
 ---
 
 ### Ingin Menambahkan Cerita Anda?
