@@ -1,5 +1,5 @@
 ---
-title: "30 tahun KDE 🎉"
+title: "30 Tahun KDE 🎉"
 date: "2026-10-16"
 author: "cho2"
 category: komunitas
@@ -9,7 +9,7 @@ image: "https://github.com/user-attachments/assets/6c764608-cdbd-42a9-bed1-8f923
 
 ![https://github.com/user-attachments/assets/6c764608-cdbd-42a9-bed1-8f923dee303b](https://github.com/user-attachments/assets/6c764608-cdbd-42a9-bed1-8f923dee303b)
 
-## 30 tahun KDE
+## 30 Tahun KDE
 
 Selamat ulang tahun KDE!. Tepat pada Rabu, 14 Oktober 2026 lalu, KDE genap berusia 30 tahun. Pada hari itu juga KDE merilis [Plasma 6.8](https://kde.org/announcements/plasma/6/6.8.0/). Silakan menonton dokumenter perjalanan KDE selama 30 tahun ini.
 
@@ -24,6 +24,9 @@ Selamat ulang tahun KDE!. Tepat pada Rabu, 14 Oktober 2026 lalu, KDE genap berus
 Perjalanan KDE sendiri tidak bisa dipisahkan dari sejarah openSUSE, bahkan sejak masih bernama S.u.S.E. (_Software und System-Entwicklung_). S.u.S.E. Linux 5.3 dirilis pada 10 September 1998 dan merupkan distro komersial pertama yang menyertakan KDE. Sekilas mengenai paket apa saja yang ada di S.u.S.E. diantaranya ada KDE 1.0, Kernel Linux 2.0.35 dan Netscape Communicator 4.05. Mungkin dari sini asalnya mengapa openSUSE identik dengan KDE meskipun kita bisa memilih opsi lingkungan destop lainnya.
 
 ![https://github.com/user-attachments/assets/17812c38-d1c7-4b56-9ff6-b29cdedc109a"](https://github.com/user-attachments/assets/17812c38-d1c7-4b56-9ff6-b29cdedc109a)
+
+_S.u.S.E. Linux 5.3_ (Sumber: [os-museum.com](https://www.os-museum.com/linux/suse53/suse53.htm))
+
 
 ## openSUSE Indonesia dan KDE
 
