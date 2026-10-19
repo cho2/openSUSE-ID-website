@@ -35,4 +35,4 @@ Komunitas openSUSE Indonesia dan KDE cukup lekat karena beberapa kontribusi angg
 - Kopdar dan penerjemahan KDE pada [November 2019](https://opensuse.id/blog/opensuse-id-di-kopdar-kde-yogyakarta-2019)
 - Kerja bakti (_hackathon_) penerjemahan Gcompris pada [September 2017](https://www.facebook.com/sokhibi.imgos/posts/pfbid0t9nMR65s4AeqUL8k6XDpqpydJFLG8cM1vKnUCB4d7txFemApFsGMax4JbLn1gFs9l)
 
-Gebrakan terbaru datang melalui KDE Merah Putih (bukan KDMP lho ya) yang dikomandoi oleh [Darian Rizaludin](https://www.facebook.com/share/r/19qDnmMQzT/) dari [KLAS (Kelompok Linux Arek Suroboyo)](https://klas.or.id/). [Silakan bergabung](https://t.me/+hQCPSTkoAU1hOTVl) dan berdiskusi untuk kontribusi selanjutnya.
+Gebrakan terbaru datang melalui [KDE Merah Putih](https://kde.or.id/) (bukan KDMP lho ya) yang dikomandoi oleh [Darian Rizaludin](https://www.facebook.com/share/r/19qDnmMQzT/) dari [KLAS (Kelompok Linux Arek Suroboyo)](https://klas.or.id/). [Silakan bergabung](https://t.me/+hQCPSTkoAU1hOTVl) dan berdiskusi untuk kontribusi selanjutnya.
