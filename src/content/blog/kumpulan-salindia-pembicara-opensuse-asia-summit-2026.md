@@ -48,7 +48,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	Muhammad Najib	- 	Which Linux Distribution Performs Best for Containerized WordPress?
 1.	[Muhammad Raihan Widagdo	- 	The Pragmatic Skripsi: How I Wrote My Undergraduate Thesis Using FOSS on openSUSE](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-the-pragmatic-skripsi-how-i-wrote-my-undergra-muhammad-raihan-widagdo.pdf)
 1.	Nayla Putri Danisa	- 	Breaking the "Linux is Hard" Stigma: A Honest Beginner's Perspective on Navigating the Technology Barrier
-1.	Ni Putu Sintia Wati	- 	Container Observability on openSUSE: A Practical Guide with Prometheus, cAdvisor, and Grafana
+1.	[Ni Putu Sintia Wati	- 	Container Observability on openSUSE: A Practical Guide with Prometheus, cAdvisor, and Grafana](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-container-observability-on-opensuse-a-practic-ni-putu-sintia-wati.pdf)
 1.	Nizar Akbar	- 	Kernel-Enforced Sandboxing for AI Agent Supply Chains with nono.sh
 1.	Nurul Aulia Dewi	- 	Deep Learning Based Automated Feature Extraction in QGIS
 1.	Patrick Fitzgerald	- 	The Great Migration
