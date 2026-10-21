@@ -18,7 +18,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	Anton Siswo Raharjo Ansori	- 	Stay Safe while Stay Secure and Stay Compliance
 1.	[Arrizal Yuwana	- 	Building a Campus Cloud with Clientless VM Access: Proxmox VE, Guacamole, RBAC, and Tailscale](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-building-a-campus-cloud-with-clientless-vm-ac-arrizal-yuwana.pdf)
 1.	[Bambang Purnomosidi Dwi Putranto	- 	openSUSE Leap Server as an Ideal Platform for Enterprise Data Lakehouse](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-opensuse-leap-server-as-an-ideal-platform-for-bambang-purnomosidi-dwi-putran.pdf)
-1.	Bayu Putra Herlambang	- 	Building Resilient Networks with OpenMPTCProuter for Disaster Recovery
+1.	[Bayu Putra Herlambang	- 	Building Resilient Networks with OpenMPTCProuter for Disaster Recovery](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-building-resilient-networks-with-openmptcprou-bayu-putra-herlambang.pdf)
 1.	[Darian Rizaludin	- 	Demystifying Server Security: A Beginner-Friendly Intro to Wazuh and openSUSE Leap 16](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-demystifying-server-security-a-beginner-frien-darian-rizaludin.pdf)
 1.	[Dhantel Rhesa Prawedha	- 	Building a Personal Multi-Tenant Web Hosting Server with openSUSE Leap 16.0](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-building-a-personal-multi-tenant-web-hosting-dhantel-rhesa-prawedha.pdf)
 1.	[Didiet A. Pambudiono	- 	Podman in openSUSE Tumbleweed/Leap](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-podman-in-opensuse-tumbleweed-leap-didiet-agus-pambudiono.pdf)
