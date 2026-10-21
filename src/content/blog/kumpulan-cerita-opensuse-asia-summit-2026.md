@@ -13,6 +13,7 @@ Berikut ini merupakan kumpulan cerita, artikel blog, dan catatan pengalaman sepu
 
 1. [From Participant to Speaker: My Journey at openSUSE Asia Summit 2026
 ](https://bembenk.net/from-attendee-to-speaker-my-journey-at-opensuse-asia-summit-2026/) - Bayu Putra Herlambang
+1. [What Happens When FOSS Legends Reunite in Jogja? My openSUSE Asia Summit 2026 Experience](https://www.darian.id/2026/10/what-happens-when-foss-legends-reunite.html) - Darian Rizaludin 
 
 ## Peserta
 
