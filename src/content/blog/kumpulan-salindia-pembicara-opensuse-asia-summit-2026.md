@@ -4,7 +4,7 @@ date: "2026-10-10"
 author: "Tim openSUSE Indonesia"
 category: kegiatan
 excerpt: "Berikut ini merupakan kummpulan salindia pembicara openSUSE.Asia Summit 2026."
-image: "https://github.com/user-attachments/assets/4429df99-b13f-47ad-be45-5f7cb5026aba"
+image: "https://github.com/user-attachments/assets/85ab49e7-b6f3-44f0-85e9-7b4b4187e970"
 ---
 
 Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit 2026. Daftar berikut diurutkan berdasarkan alfabet. Anda dapat juga mengaksesnya di halaman [openSUSE Slides](https://opensuse.github.io/slides/). Tautan ke video juga sudah tersedia. Halaman ini akan diupdate secara berkala.
