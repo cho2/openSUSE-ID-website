@@ -30,7 +30,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	[Geraldhi Aditya Putra Mahayadnya	- 	Distributed Monitoring system using Prometheus and Thanos on OpenSUSE servers](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-distributed-monitoring-system-using-prometheu-geraldhi-aditya-putra-mahayadn.pdf) [🎥](https://youtu.be/LmrN1wPBIuY)
 1.	Hamnah Suhaeri	- 	Women in Tech: Building Confidence, Influence, and Leadership [🎥](https://youtu.be/H8WP_6pdiIA)
 1.	[Herpiko Dwi Aguno	- 	The Invisible Infrastructure of Community: Building Communities People Want to Stay In](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-the-invisible-infrastructure-of-community-bui-herpiko-dwi-aguno.pdf) [🎥](https://youtu.be/35O4mjOBbBM)
-1.	Ilham Setiawan	- 	Running Database Migrations Safely in Kubernetes 
+1.	[Ilham Setiawan	- 	Running Database Migrations Safely in Kubernetes](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-running-database-migrations-safely-in-kuberne-ilham-adi-setiawan.pdf) 
 1.	Ish Sookun	- 	Why openSUSE membership matters? 
 1.	Iwan Setiawan	- 	Running a 5G System on Your Laptop [🎥](https://youtu.be/keLLfceAIpU)
 1.	[James Ed Randson	- 	Getting the next generation to learn the GNU/Linux system](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-getting-the-next-generation-to-learn-the-gnu-james-ed-randson.pdf) [🎥](https://youtu.be/XfAsooOn_7M)
