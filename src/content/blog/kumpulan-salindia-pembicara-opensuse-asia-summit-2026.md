@@ -22,7 +22,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	[Darian Rizaludin	- 	Demystifying Server Security: A Beginner-Friendly Intro to Wazuh and openSUSE Leap 16](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-demystifying-server-security-a-beginner-frien-darian-rizaludin.pdf) [🎥](https://youtu.be/6XdtS_ueG-g)
 1.	[Dhantel Rhesa Prawedha	- 	Building a Personal Multi-Tenant Web Hosting Server with openSUSE Leap 16.0](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-building-a-personal-multi-tenant-web-hosting-dhantel-rhesa-prawedha.pdf)
 1.	[Didiet A. Pambudiono	- 	Podman in openSUSE Tumbleweed/Leap](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-podman-in-opensuse-tumbleweed-leap-didiet-agus-pambudiono.pdf) [🎥](https://youtu.be/AXvOAQWrmE8)
-1.	Douglas DeMaio	- 	Geeko Foundation Update
+1.	Douglas DeMaio	- 	Geeko Foundation Update [🎥](https://youtu.be/EMxYDISUDCg)
 1.	Ernawan	- 	Bringing openSUSE into the Classroom [🎥](https://youtu.be/dV8Hm005HfY)
 1.	Fadilah Riczky	- 	Building a Self-Hosted Cloud Native Platform Using Open Source Technologies [🎥](https://youtu.be/Ml7BZfQ94Lc)
 1.	Faiq Aminuddin	- 	Making Nusantara Manuscripts More Open with Open Source [🎥](https://youtu.be/Ml7BZfQ94Lc)
@@ -43,7 +43,7 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	[Maulana Abdurrahman	- 	Integrating Local AI Agents within the openSUSE Ecosystem](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-integrating-local-ai-agents-within-the-opensu-maulana-abdurrahman.pdf) [🎥](https://youtu.be/v1taLRwuUvU?si=Afc01cM6bgE-8uGs)
 1.	Moh Noor Al Azam	- 	Bridging the Gap: Integrating Linux Virtualization into Programming Classes to Breed Full-Stack-Aware Developers [🎥](https://youtu.be/FQtSzcPCuJY)
 1.	Moh. Ali	- 	From DNS Query to Nearest Edge: Geographic Load Balancing with gdnsd and MaxMind GeoIP2 [🎥](https://youtu.be/yCh5BacNdfk)
-1.  [Muhammad Dhenandi Putra - Welcome to openSUSE.Asia Summit 2026](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-welcome-to-opensuse-asia-summit-2026-muhammad-dhenandi-putra.pdf) 
+1.  [Muhammad Dhenandi Putra - Welcome to openSUSE.Asia Summit 2026](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-welcome-to-opensuse-asia-summit-2026-muhammad-dhenandi-putra.pdf) [🎥](https://youtu.be/yqCf76TrogE)
 1.	Muhammad Ikhwan Fathulloh	- 	Architecting Agentic AI Workflows: Bridging Language Processing and LLM Serving on openSUSE [🎥](https://youtu.be/9dhm7Ts1o-M)
 1.	Muhammad Najib	- 	Which Linux Distribution Performs Best for Containerized WordPress? [🎥](https://youtu.be/mMGmlPk_ktE)
 1.	[Muhammad Raihan Widagdo	- 	The Pragmatic Skripsi: How I Wrote My Undergraduate Thesis Using FOSS on openSUSE](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-the-pragmatic-skripsi-how-i-wrote-my-undergra-muhammad-raihan-widagdo.pdf)
@@ -51,16 +51,16 @@ Berikut ini merupakan kumpulan salindia (_slide_) pembicara openSUSE.Asia Summit
 1.	[Ni Putu Sintia Wati	- 	Container Observability on openSUSE: A Practical Guide with Prometheus, cAdvisor, and Grafana](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-container-observability-on-opensuse-a-practic-ni-putu-sintia-wati.pdf) [🎥](https://youtu.be/aasWwmt6jvk)
 1.	Nizar Akbar	- 	Kernel-Enforced Sandboxing for AI Agent Supply Chains with nono.sh [🎥](https://youtu.be/xi7BKh9ZFTA)
 1.	Nurul Aulia Dewi	- 	Deep Learning Based Automated Feature Extraction in QGIS [🎥](https://youtu.be/po1N2sQCIIw)
-1.	Patrick Fitzgerald	- 	The Great Migration
+1.	Patrick Fitzgerald	- 	The Great Migration [🎥](https://youtu.be/35hO2DaAZNM)
 1.	[Rahman Yusri Aftian	- 	How to type Javanese and Kawi scripts at openSUSE](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-how-to-type-javanese-and-kawi-scripts-at-open-rahman-yusri-aftian.pdf) [🎥](https://youtu.be/70REDg1cNw0)
 1.	[Rio Wiraldhani	- 	Practical Vulnerability Management on openSUSE with Wazuh](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-practical-vulnerability-management-on-opensus-rio-wiraldhani.pdf) [🎥](https://youtu.be/zrfLdWYuyKE)
 1.	[Rithull Raj Kallat & Divyanshu Prakash	- 	How openSUSE Works: Leap, Tumbleweed, OBS, openQA, and YaST](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-how-opensuse-works-rithull-raj-kallat.pdf) [🎥](https://youtu.be/2wqYaSJxaUA)
 1.	[Robertus Diawan Chris	- 	Kickstart Linux Kernel Contribution by Fixing Coverity Issue](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-kickstart-linux-kernel-contribution-by-fixing-robertus-diawan-chris.pdf) [🎥](https://youtu.be/N5fezZ4lKHM)
 1.	[Sendy Aditya Suryana	- 	From Steam to Epic: A Practical Guide to Linux Gaming](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-year-of-linux-gaming-from-steam-to-epic-a-pra-sendy-aditya-suryana.pdf) [🎥](https://youtu.be/siCTrhtkogA)
 1.	[Shobha Tyagi	- 	Open Source and the Future of Innovation](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-open-source-the-future-of-innovation-shobha-tyagi.pdf) [🎥](https://youtu.be/6GL1l6A6huQ)
-1.	Simon Lees	- 	An Introduction to openSUSE Packaging using Git and OBS
+1.	Simon Lees	- 	An Introduction to openSUSE Packaging using Git and OBS [🎥](https://youtu.be/SbJM09WT_7E)
 1.	[Sk Izaz Ahmed	- 	Common Linux Beginner Mistakes — and How to Avoid Them](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-i-don-t-know-what-i-just-ran-a-beginner-s-gui-sk-izaz-ahmed.pdf) [🎥](https://youtu.be/9SiLEIDwvwM)
-1.	Sunny 	- 	Leadership in the Open Source Community
+1.	Sunny 	- 	Leadership in the Open Source Community [🎥](https://youtu.be/2WOk-V48wTo)
 1.	[Tonny Adhi Sabastian	- 	Get Into The Kernel External Scheduler (sched_ext) - A Study Shared](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-get-into-the-kernel-external-scheduler-sched-tonny-adhi-sabastian.pdf) [🎥](https://youtu.be/fwdHz-F-Hss)
 1.	Vivek Shilimkar & Swastik Gour	- 	Inside Rancher’s Provisioning Engine: Architecting Alibaba Cloud Drivers and EKS IPv6 Support for Scale [🎥](https://youtu.be/VztBrSL6KwU)
 1.	[Yaroslav Kornilov & Michal Svec	- 	What's new in SUSE Linux Enterprise Server 16.1](https://opensuse.github.io/slides/presentations/opensuse-asia-summit-2026-what-s-new-in-suse-linux-enterprise-server-16-yaroslav-kornilov.pdf) [🎥](https://youtu.be/-qrQwORP7Y0)
