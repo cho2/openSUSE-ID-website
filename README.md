@@ -273,7 +273,7 @@ Dikembangkan dan dimaintain oleh [Komunitas openSUSE Indonesia](https://opensuse
 ## 📞 Kontak
 
 - Website: https://opensuse.id
-- Email: opensuse.id@gmail.com
+- Email: humas@opensuse.id
 - Telegram: https://t.me/openSUSE_ID
 - Forum: https://forums.opensuse.org
 
