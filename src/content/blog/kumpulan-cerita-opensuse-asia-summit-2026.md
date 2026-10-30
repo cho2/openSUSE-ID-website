@@ -19,7 +19,7 @@ Berikut ini merupakan kumpulan cerita, artikel blog, dan catatan pengalaman sepu
 
 ## Peserta
 
-1. [Kembali Berkomunitas di oSAS2026]([https://opensuse.id](https://medium.com/@sartikalestari/kembali-berkomunitas-di-osas2026-4641b0cf5247?postPublishedType=initial)) - Sartika Lestari
+1. [Kembali Berkomunitas di oSAS2026](https://medium.com/@sartikalestari/kembali-berkomunitas-di-osas2026-4641b0cf5247) - Sartika Lestari
 
 ## Panitia
 
